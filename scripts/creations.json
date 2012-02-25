@@ -1,0 +1,132 @@
+[
+	{ 
+		"category": "tools",
+		"start": { "year": 2012, "month": 2 },
+		"end": { "year": 2012, "month": 3 },
+		"classes": ["center", "inprogress"]
+	},{ 
+		"category": "games",
+		"start": { "year": 2011, "month": 6 },
+		"end": { "year": 2012, "month": 3 },
+		"classes": ["left", "inprogress"]
+	},{ 
+		"name": "Problem Set? Marmoset!",
+		"category": "tools",
+		"start": { "year": 2011, "month": 12 },
+		"end": { "year": 2012, "month": 1 },
+		"classes": ["right", "team"],
+		"description": "Online LaTeX editor and motivational tool, inspired by Written? Kitten!",
+		"dialogId": "dialogMarmoset",
+		"dialogDimensions": [500, "auto"]
+	},{ 
+		"name": "DiffNow",
+		"category": "tools",
+		"start": { "year": 2011, "month": 6 },
+		"end": { "year": 2011, "month": 12 },
+		"classes": ["left", "company"],
+		"description": "Online utility to compare files and share comparison reports, powered by ExamDiff Pro.",
+		"dialogId": "dialogDiffNow",
+		"dialogDimensions": [500, "auto"]
+	},{
+		"name": "Not a Soul in the World",
+		"category": "games",
+		"start": { "year": 2011, "month": 12 },
+		"end": { "year": 2011, "month": 12 },
+		"classes": ["right", "solo"],
+		"captionOffset": -8,
+		"description": "My entry into Ludum Dare #22. Help an emulated brain recover its memories.",
+		"dialogId": "dialogNotASoul",
+		"dialogDimensions": [600, "auto"]
+	},{
+		"name": "Gromunity",
+		"category": "social",
+		"start": { "year": 2011, "month": 9 },
+		"end": { "year": 2011, "month": 9 },
+		"classes": ["center", "team"],
+		"description": "A prototype of an online community for urban gardeners, built for the inaugural CleanWeb Hackathon.",
+		"dialogId": "dialogGromunity",
+		"dialogDimensions": [500, "auto"]
+	},{
+		"name": "pluralizer",
+		"category": "tools",
+		"start": { "year": 2011, "month": 7 },
+		"end": { "year": 2011, "month": 7 },
+		"classes": ["right", "solo"],
+		"description": "A Yii widget to correctly pluralize dynamic data labels.",
+		"dialogId": "dialogPluralizer",
+		"dialogDimensions": [450, "auto"]
+	},{
+		"name": "CitySandbox",
+		"category": "social",
+		"start": { "year": 2011, "month": 5 },
+		"end": { "year": 2011, "month": 7 },
+		"classes": ["center", "company"],
+		"description": "A platform for participatory democracy, built for the Social Apps Lab at CITRIS.",
+		"dialogId": "dialogCitySandbox",
+		"dialogDimensions": [500, "auto"]
+	},{
+		"name": "JezzBall 3D",
+		"category": "games",
+		"start": { "year": 2011, "month": 5 },
+		"end": { "year": 2011, "month": 5 },
+		"classes": ["center", "team"],
+		"description": "A 3D adaptation of the classic Windows game of JezzBall.",
+		"dialogId": "dialogJezzball",
+		"dialogDimensions": [600, 400]
+	},{
+		"name": "It's Not Easy Being Muammar",
+		"category": "games",
+		"start": { "year": 2011, "month": 4 },
+		"end": { "year": 2011, "month": 4 },
+		"classes": ["centerLeft", "solo"],
+		"captionOffset": -8,
+		"description": "My entry into Ludum Dare #20. A satire of NATO intervention in the Libyan civil war.",
+		"dialogId": "dialogMuammar",
+		"dialogDimensions": [600, "auto"]
+	},{
+		"name": "Cal Day Photo Hunt",
+		"category": "social",
+		"start": { "year": 2011, "month": 2 },
+		"end": { "year": 2011, "month": 4 },
+		"classes": ["center", "company"],
+		"description": "A competitive scavenger hunt run by the Social Apps Lab at CITRIS.",
+		"dialogId": "dialogCalDayPhotoHunt",
+		"dialogDimensions": [600, "auto"]
+	},{
+		"name": "OOXML2Txt",
+		"category": "tools",
+		"start": { "year": 2011, "month": 3 },
+		"end": { "year": 2011, "month": 3 },
+		"classes": ["center", "company"],
+		"description": "An OpenXML (Office 2007+) to text conversion tool, made as a plugin for ExamDiff Pro.",
+		"dialogId": "dialogOOXML2Txt",
+		"dialogDimensions": [400, "auto"]
+	},{
+		"name": "Terra Nova",
+		"category": "games",
+		"start": { "year": 2010, "month": 12 },
+		"end": { "year": 2010, "month": 12 },
+		"classes": ["center", "solo"],
+		"description": "My entry into Ludum Dare #19. An exploration game about Robert Scott's Antarctic expedition.",
+		"dialogId": "dialogTerraNova",
+		"dialogDimensions": [600, "auto"]
+	},{
+		"name": "RickRemoval",
+		"category": "tools",
+		"start": { "year": 2010, "month": 10 },
+		"end": { "year": 2010, "month": 10 },
+		"classes": ["center", "team"],
+		"description": "A browser extension to block rickroll videos, built for Yahoo Hack-U.",
+		"dialogId": "dialogRickRemoval",
+		"dialogDimensions": [500, "auto"]
+	},{
+		"name": "RootMusic BandPage",
+		"category": "social",
+		"start": { "year": 2010, "month": 2 },
+		"end": { "year": 2010, "month": 7 },
+		"classes": ["center", "company"],
+		"description": "A Facebook app for dynamic pages for musicians that I helped work on during an internship.",
+		"dialogId": "dialogRootMusic",
+		"dialogDimensions": [550, "auto"]
+	}
+]

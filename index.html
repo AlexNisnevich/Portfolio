@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Alex Nisnevich :: Portfolio</title>
+		<base target="_blank">
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="scripts/portfolio.js"></script>
+		
+		<link rel="stylesheet" href="styles/smoothness/jquery-ui-1.8.17.custom.css">
+		<link rel="stylesheet" href="styles/portfolio.css">
+	</head>
+	<body>
+		<div id="container">
+			<div id="sidebar">
+				<div id="years"></div>
+			</div>
+			<div id="portfolio">
+				<div class="column" id="colGames">
+					<span class="title">Games</span>
+					<div class="line"></div>
+					<div class="points" id="games"></div>
+				</div>
+				<div class="column" id="colTools">
+					<span class="title">Tools</span>
+					<div class="line"></div>
+					<div class="points" id="tools"></div>
+				</div>
+				<div class="column" id="colSocial">
+					<span class="title">Social</span>
+					<div class="line"></div>
+					<div class="points" id="social"></div>
+				</div>
+			</div>
+			<div id="footer">
+				<span><a href="/resume/">[Resume]</a></span>
+				<span><a href="http://www.github.com/AlexNisnevich">[Github]</a></span>
+				<span><a href="/?p=index">[Old Site]</a></span>
+				<span>alex [dot] nisnevich [at] gmail [dot] com</span>
+			</div>
+		</div>		
+		<div id="dialogs" class="ui-helper-hidden">
+			<div id="dialogMarmoset" title="Problem Set? Marmoset!">
+				<a href="http://www.problemsetmarmoset.com">
+					<img src="http://www.problemsetmarmoset.com/images/logo.png">
+				</a>
+				<div class="quickInfo">
+					<b>Made with:</b> Demie Cheng<br>
+					<b>Languages:</b> JavaScript, PHP<br>
+					<b>Technologies:</b> jQuery
+				</div>
+				<p><a href="http://www.problemsetmarmoset.com">Problem Set? Marmoset!</a> is an online LaTeX editor
+					and motivational tool, intended as a spinoff of <a href="http://www.writtenkitten.net">Written? Kitten!</a>
+					for science students. Reward yourself for your hard work with adorable pictures of marmosets! LaTeX is
+					rendered automatically thanks to <a href="http://www.quicklatex.com/">QuickLaTeX</a> and 
+					<a href="http://www.mathtran.org/">MathTran</a>. 
+					<a href="https://github.com/AlexNisnevich/ProblemSetMarmoset">Source code</a> is available.</p>
+			</div>
+			<div id="dialogDiffNow" title="DiffNow">
+				<a href="http://www.diffnow.com">
+					<img src="http://www.diffnow.com/images/diffnow.png">
+				</a>
+				<div class="quickInfo">
+					<b>Made with:</b> <a href="http://www.prestosoft.com">PrestoSoft</a><br>
+					<b>Languages:</b> JavaScript, C#<br>
+					<b>Technologies:</b> ASP.NET, jQuery, SCSS
+				</div>
+				<p><a href="http://www.diffnow.com">DiffNow</a> is an online comparison tool for comparing plain text,
+					source code, documents, or archives online. It also lets users share interactive comparison reports. 
+					I built the frontend of DiffNow, while the backend is powered by 
+					<a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>.</p>
+			</div>
+			<div id="dialogNotASoul" title="Not a Soul in the World">
+				<a href="http://alex.nisnevich.com/creations/NotASoul/">
+					<img src="images/NotASoulLogo.png" class="floatRight">
+				</a>
+				<div class="quickInfo">
+					<b>Language:</b> JavaScript<br>
+					<b>Technologies:</b> HTML5 Audio, SCSS
+				</div>
+				<p>In Not a Soul in the World, you play the part of a psychologist trying to convince an
+					uploaded mind that it is human. I made it for
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-22/">22nd Ludum Dare</a> 48-hour game 
+					development competition (the theme was "Alone").</p>
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://alex.nisnevich.com/creations/NotASoul/">Play online</a></li>
+					<li><a href="https://github.com/AlexNisnevich/NotASoul">Source code</a></li>
+					<li><a href="http://www.ludumdare.com/compo/ludum-dare-22/?action=preview&uid=3353">Competition entry page</a></li>
+				</ul>
+			</div>
+			<div id="dialogGromunity" title="Gromunity">
+				<a href="http://www.gromunity.com">
+					<img src="http://www.gromunity.com/images/css/logotype.png" width="400" height="84">
+				</a>
+				<div class="quickInfo">
+					<b>Made with:</b> Aiden J&ouml;nsson, Alex Hudzilin, Jae Koh, <a href="http://gplus.to/justjake">Jake Teton-Landis</a> and <a href="http://dygames.site11.com/">Raymond Ye</a><br>
+					<b>Languages:</b> Ruby, JavaScript<br>
+					<b>Technologies:</b> Rails, SQLite, Heroku, Google Maps API, SCSS
+				</div>
+				<p><a href="http://www.gromunity.com">Gromunity</a> is a working prototype of an online community for urban
+					gardens, in a form of a local market for selling, borrowing, and trading produce, tools, and manpower. We 
+					made for the first <a href="http://cleanwebhack.com/hackathon/">Cleanweb Hackathon</a> in San Francisco. The
+					site is mostly functional but inactive: we weren't able to market it successfully after the hackathon.
+				</p>
+			</div>
+			<div id="dialogPluralizer" title="pluralizer">
+				<div class="quickInfo">
+					<b>Languages:</b> PHP, JavaScript<br>
+					<b>Technologies:</b> Yii
+				</div>
+				<p>I've always been annoyed by incorrect pluralization in websites ("1 events", etc), so I developed 
+					<a href="http://www.yiiframework.com/extension/pluralizer/">pluralizer</a>, a Yii widget that correctly
+					pluralizes labels for dynamic data. Usage is simple: an instance of the widget is created with the singular
+					and plural forms specified for all labels, and a JavaScript function must be called whenever data changes
+					to refresh the labels.</p>
+				<p>I wrote a short article (if a Facebook note can be called an article) about pluralizer 
+					<a href="https://www.facebook.com/note.php?note_id=10150192078026685">here</a>.</p>
+			</div>
+			<div id="dialogCitySandbox" title="CitySandbox">
+				<img src="images/citysandbox2.png">
+				<div class="quickInfo">
+					<b>Made with:</b> The <a href="http://socialappslab.com/">Social Apps Lab</a> at <a href="http://citris-uc.org/">CITRIS</a><br>
+					<b>Languages:</b> PHP, JavaScript<br>
+					<b>Technologies:</b> Yii, MySQL, jQuery, Google Maps API
+				</div>
+				<p>CitySandbox was a platform for residents of the Bay Area to ask questions and voice concerns about
+					their communities. Users could post questions on the map in a sort of Reddit / Stack Overflow / Google Maps
+					mashup, and the site could even generate mini-flyers with QR codes for questions and events. CitySandbox is
+					unfortunately no longer active, but you can read about it 
+					<a href="http://allthingsd.com/20110811/citysandbox-berkeley-lab-launches-qa-site-for-civic-action/">here</a>.</p>
+			</div>
+			<div id="dialogJezzball" title="JezzBall 3D">
+				<img src="http://alex.nisnevich.com/creations/icons/3djezzball.png" class="floatRight">
+				<div class="quickInfo">
+					<b>Made with:</b> <a href="http://erikgui.com/">Erik Gui</a><br>
+					<b>Language:</b> C++<br>
+					<b>Technologies:</b> OpenGL, GLUT
+				</div>
+				<p>JezzBall 3D is a three-dimensional adaptation of the classic game <a href="http://en.wikipedia.org/wiki/JezzBall">JezzBall</a>,
+					made as a final <a href="http://www-inst.eecs.berkeley.edu/~cs184/">CS184</a> project.</p>
+				<h3>Download</h3>
+				<ul>
+					<li><a href="http://alex.nisnevich.com/creations/jezzball3d/jezzball3d.zip">Windows download</a></li>
+					<li><a href="http://alex.nisnevich.com/creations/jezzball3d/jezzBall.dmg">Mac OS download</a> (no sound)</li>
+					<li><a href="http://alex.nisnevich.com/creations/jezzball3d/source.zip">Source code</a></li>
+				</ul>
+				<h3>Controls</h3>
+				<ul>
+					<li>Left-click to place a wall</li>
+					<li>Middle-click or spacebar to change wall orientation</li>
+					<li>Right-click and drag to rotate (or zoom, in zoom mode)</li>
+				</ul>
+				<h3>Documents</h3>
+				<ul>
+					<li><a href="http://alex.nisnevich.com/creations/jezzball3d/as11.pdf">Project proposal</a></li>
+					<li><a href="http://alex.nisnevich.com/creations/jezzball3d/as13.pdf">Final project report</a></li>
+				</ul>
+				<h3>Gameplay Video</h3>
+				<center><iframe width="425" height="349" src="http://www.youtube.com/embed/6CefcmQnUEo" frameborder="0" allowfullscreen=""></iframe></center>
+			</div>
+			<div id="dialogMuammar" title="It's Not Easy Being Muammar">
+				<a href="http://alex.nisnevich.com/hosting/LD20.swf">
+					<img src="http://alex.nisnevich.com/creations/icons/itsnoteasy.png" class="floatRight">
+				</a>
+				<div class="quickInfo">
+					<b>Language:</b> ActionScript<br>
+					<b>Tools:</b> Adobe Flex, FlashPunk, sfxr, GXSCC, Paint.NET, Photoshop
+				</div>
+				<p>It's Not Easy Being Muammar is a satire of NATO intervention in the Libyan civil war that I made for
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-20/">20th Ludum Dare</a> 48-hour game 
+					development competition (the theme was "It's dangerous to go alone! Take this!").</p>
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://alex.nisnevich.com/hosting/LD20.swf">Play online</a></li>
+					<li><a href="http://www.nisnevich.com/alex/hosting/LD20.zip">Source code</a></li>
+					<li><a href="http://www.ludumdare.com/compo/ludum-dare-20/?action=preview&uid=3353">Competition entry page</a></li>
+				</ul>
+			</div>
+			<div id="dialogCalDayPhotoHunt" title="Cal Day Photo Hunt">
+				<a href="http://www.caldayphotohunt.com/">
+					<img src="http://www.caldayphotohunt.com/images/caldaysite-banner-medium.png">
+				</a>
+				<div class="quickInfo">
+					<b>Made with:</b> The <a href="http://socialappslab.com/">Social Apps Lab</a> at <a href="http://citris-uc.org/">CITRIS</a><br>
+					<b>Languages:</b> PHP, JavaScript<br>
+					<b>Technologies:</b> Yii, MySQL, jQuery
+				</div>
+				<p>Cal Day Photo Hunt was a competitive scavenger hunt run by the Social Apps Lab on 
+					<a href="http://calday.berkeley.edu/">Cal Day 2011</a>, with the goal of getting visitors to pay
+					more attention to their environment. The results of the Photo Hunt can be seen 
+					<a href="http://caldayphotohunt.com/index.php?r=site/index">here</a>.</p>
+			</div>
+			<div id="dialogOOXML2Txt" title="OOXML2Txt">
+				<div class="quickInfo">
+					<b>Made for:</b> <a href="http://www.prestosoft.com">PrestoSoft</a><br>
+					<b>Language:</b> C#
+					<p>OOXML2Txt is (as far as I can tell) the first free 
+						<a href="http://en.wikipedia.org/wiki/Office_Open_XML">OpenXML</a>-to-text 
+						converter, and can convert Word, Excel, and PowerPoint 2007+ files to text/csv files. It was developed 
+						as a plug-in for <a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>, but 
+						is a general-purpose command-line utility. You can download it 
+						<a href="http://www.prestosoft.com/download/plugins/OOXML2Txt.zip">here</a>.</p>
+				</div>
+			</div>
+			<div id="dialogTerraNova" title="Terra Nova">
+				<a href="http://www.nisnevich.com/alex/creations/terra-nova-ld.html">
+					<img src="http://alex.nisnevich.com/creations/icons/terranova.png" class="floatRight">
+				</a>
+				<div class="quickInfo">
+					<b>Language:</b> ActionScript<br>
+					<b>Tools:</b> Flash, Paint.NET, Audacity, Finale Notepad, sfxr, GXSCC
+				</div>
+				<p>Terra Nova is an exploration game based on Captain Robert Scott's 
+					<a href="http://en.wikipedia.org/wiki/Terra_Nova_Expedition">failed Antarctic expedition</a> that I made for
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-19/">19th Ludum Dare</a> 48-hour game 
+					development competition (the theme was "Discovery").</p>
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://www.nisnevich.com/alex/creations/terra-nova-ld.html">Play online</a></li>
+					<li><a href="http://www.ludumdare.com/compo/ludum-dare-19/?action=preview&uid=3353">Competition entry page</a></li>
+				</ul>
+			</div>
+			<div id="dialogRickRemoval" title="RickRemoval">
+				<a href="http://www.rickremoval.com/"><img src="http://www.rickremoval.com/images/top.jpg" width="400" height="111"></a>
+				<div class="quickInfo">
+					<b>Made with:</b> Greg Shuflin and Nanxi Liu<br>
+					<b>Language:</b> JavaScript<br>
+					<b>Technologies:</b> Greasemonkey
+				</div>
+				<p>RickRemoval is a multi-browser extension that automatically detects rickroll videos and prevents 
+					them from playing. It was developed for the 2010 
+					<a href="http://developer.yahoo.com/hacku/cal.html">Yahoo Hack-U</a> event at U.C. Berkeley.</p>
+				<h3>Install</h3>
+				<ul>
+					<li><a href="http://www.rickremoval.com/">RickRemoval home page</a></li>
+					<li><a href="https://addons.mozilla.org/en-US/firefox/addon/rickremoval/">Mozilla extension gallery page</a></li>
+				</ul>
+			</div>
+			<div id="dialogRootMusic" title="RootMusic BandPage">
+				<a href="http://www.rootmusic.com">
+					<img src="images/rootmusic-logo.jpg" class="floatRight" width="162" height="125">
+				</a>
+				<div class="quickInfo">
+					<b>Internship at:</b> <a href="http://www.rootmusic.com">RootMusic</a><br>
+					<b>Languages:</b> PHP, Java, JavaScript, ActionScript<br>
+					<b>Technologies:</b> Kohana, MySQL, jQuery, FBML/FBJS 
+				</div>
+				<p><a href="http://www.rootmusic.com">RootMusic BandPage</a> is a Facebook application that lets
+					musicians create dynamic pages to engage their fans.</p>
+				<p>During my internship at RootMusic, I designed and developed the 
+						<a href="http://listn.to">listn.to</a> URL shortener, built the first working prototype of the 
+						BandPage Player, and worked on various features in the Facebook app and on the site.</p>
+			</div>
+		</div>
+	</body>
+</html>
