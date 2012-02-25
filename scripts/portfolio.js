@@ -12,7 +12,7 @@ function addYear(year) {
 }
 
 function addSideText(txt, year, month, cssClass) {
-	var textElt = $('<div>').text(txt).css('top', dateToHeight(year, month)).addClass(cssClass);
+	var textElt = $('<div>').html(txt).css('top', dateToHeight(year, month)).addClass(cssClass);
 	$('#years').append(textElt);
 }
 
@@ -135,9 +135,12 @@ $(document).ready(function() {
 	addSideText('Alex Nisnevich', 2010, 9, 'name');
 	addSideText('Developer Portfolio', 2010, 7.4, 'name');
 	
-	addSideText('Individual Projects', 2010, 4.5, 'legend green');
-	addSideText('Team Projects', 2010, 3.6, 'legend blue');
-	addSideText('Corporate / Research Projects', 2010, 2.7, 'legend red');
+	addSideText('<a href="/resume/">Resume</a> | <a href="http://www.github.com/AlexNisnevich">Github</a> | <a href="/?p=index">Old Site</a>', 
+		2010, 5.5, 'link');
+	
+	addSideText('Individual Projects', 2010, 3.5, 'legend green');
+	addSideText('Team Projects', 2010, 2.6, 'legend blue');
+	addSideText('Corporate / Research Projects', 2010, 1.7, 'legend red');
 	
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {

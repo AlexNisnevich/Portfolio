@@ -47,6 +47,23 @@ body.noScrollY {
 	color: #fff;
 }
 
+#years div.link {
+	width: 500px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 0.7em;
+	color: #fff;
+}
+
+#years div.link a {
+	color: white;
+	text-decoration: none;
+}
+
+#years div.link a:hover {
+	font-weight: bold;
+}
+
 #years div.legend {
 	width: 500px;
 	font-size: 0.8em;
@@ -72,25 +89,11 @@ body.noScrollY {
 #footer {
 	clear: both;
 	font-size: 0.7em;
-	text-align: center;
+	text-align: right;
 	margin: 1em auto;
-	padding: 2em;
+	padding: 1.2em;
 	width: 750px;
-}
-
-#footer span {
-	padding: 0 3em;
-	float: left;
-	min-width: 70px;
-}
-
-#footer a {
-	color: white;
-	text-decoration: none;
-}
-
-#footer a:hover {
-	font-weight: bold;
+	border-top: 1px solid #999;
 }
 
 /*
@@ -100,6 +103,7 @@ body.noScrollY {
 #portfolio {
 	float: left;
 	width: 780px;
+	margin-bottom: 1.25em;
 }
 
 .column {
