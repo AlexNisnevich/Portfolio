@@ -1,14 +1,18 @@
 [
 	{ 
-		"category": "tools",
-		"start": { "year": 2012, "month": 2 },
-		"end": { "year": 2012, "month": 3 },
-		"classes": ["center", "inprogress"]
-	},{ 
 		"category": "games",
 		"start": { "year": 2011, "month": 6 },
 		"end": { "year": 2012, "month": 3 },
 		"classes": ["left", "inprogress"]
+	},{ 
+		"name": "ECMAchine",
+		"category": "tools",
+		"start": { "year": 2012, "month": 2 },
+		"end": { "year": 2012, "month": 3 },
+		"classes": ["center", "solo"],
+		"description": "A Lisp-based in-browser toy operating system",
+		"dialogId": "dialogECMAchine",
+		"dialogDimensions": [500, "auto"]
 	},{ 
 		"name": "Problem Set? Marmoset!",
 		"category": "tools",
