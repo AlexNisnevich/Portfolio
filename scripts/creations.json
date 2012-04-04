@@ -10,7 +10,7 @@
 		"start": { "year": 2012, "month": 2 },
 		"end": { "year": 2012, "month": 3 },
 		"classes": ["center", "solo"],
-		"description": "A Lisp-based in-browser toy operating system",
+		"description": "Lisp-based in-browser toy operating system.",
 		"dialogId": "dialogECMAchine",
 		"dialogDimensions": [500, "auto"]
 	},{ 

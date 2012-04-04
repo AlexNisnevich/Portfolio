@@ -299,3 +299,14 @@ body.noScrollY {
 	margin-top: 1em;
 	font-size: 0.8em;
 }
+
+/*
+ * Special dialogs
+ */
+
+#dialogECMAchine, #dialogECMAchine .quickInfo, #dialogECMAchine a {
+	font-family: monospace;
+	font-size: 13px;
+	color: #AAA !important;
+	background-color: black;
+}
