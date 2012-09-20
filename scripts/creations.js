@@ -1,19 +1,41 @@
-[
-	{ 
-		"category": "games",
-		"start": { "year": 2011, "month": 6 },
-		"end": { "year": 2012, "month": 3 },
-		"classes": ["left", "inprogress"]
-	},{ 
+var creations = [
+	{
+		"name": "diffnow-cli",
+		"category": "tools",
+		"start": { "year": 2012, "month": 7 },
+		"end": { "year": 2012, "month": 8 },
+		"classes": ["center", "solo"],
+		"description": "A command-line interface for DiffNow, an online file comparison utility.",
+		"dialogId": "dialogDiffNowCli",
+		"dialogDimensions": [500, "auto"]
+	},{
+		"name": "phon_rule",
+		"category": "tools",
+		"start": { "year": 2012, "month": 4 },
+		"end": { "year": 2012, "month": 4 },
+		"classes": ["right", "solo"],
+		"description": "A simple LaTeX environment for typesetting phonological rules.",
+		"dialogId": "dialogPhonRule",
+		"dialogDimensions": [500, "auto"]
+	},{
 		"name": "ECMAchine",
 		"category": "tools",
 		"start": { "year": 2012, "month": 2 },
-		"end": { "year": 2012, "month": 3 },
-		"classes": ["center", "solo"],
+		"end": { "year": 2012, "month": 5 },
+		"classes": ["left", "solo"],
 		"description": "Lisp-based in-browser toy operating system.",
 		"dialogId": "dialogECMAchine",
 		"dialogDimensions": [500, "auto"]
-	},{ 
+	},{
+		"name": "Four Kings Chess",
+		"category": "games",
+		"start": { "year": 2011, "month": 6 },
+		"end": { "year": 2012, "month": 1 },
+		"classes": ["left", "team"],
+		"description": "A more-or-less-complete online four-player chess variant with different countries.",
+		"dialogId": "dialogFourKingsChess",
+		"dialogDimensions": [500, "auto"]
+	},{
 		"name": "Problem Set? Marmoset!",
 		"category": "tools",
 		"start": { "year": 2011, "month": 12 },
@@ -22,7 +44,7 @@
 		"description": "Online LaTeX editor and motivational tool, inspired by Written? Kitten!",
 		"dialogId": "dialogMarmoset",
 		"dialogDimensions": [500, "auto"]
-	},{ 
+	},{
 		"name": "DiffNow",
 		"category": "tools",
 		"start": { "year": 2011, "month": 6 },
@@ -133,4 +155,4 @@
 		"dialogId": "dialogRootMusic",
 		"dialogDimensions": [550, "auto"]
 	}
-]
+];

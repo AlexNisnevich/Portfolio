@@ -3,15 +3,17 @@
 	<head>
 		<title>Alex Nisnevich :: Portfolio</title>
 		<base target="_blank">
-		
+
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="scripts/creations.js"></script>
 		<script type="text/javascript" src="scripts/portfolio.js"></script>
-		
+
 		<link rel="stylesheet" href="styles/smoothness/jquery-ui-1.8.17.custom.css">
 		<link rel="stylesheet" href="styles/portfolio.css">
 	</head>
 	<body>
+		<a href="https://git.io/a-n"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 		<div id="container">
 			<div id="sidebar">
 				<div id="years"></div>
@@ -36,15 +38,30 @@
 			<div id="footer">
 				<span>alex [dot] nisnevich [at] gmail [dot] com</span>
 			</div>
-		</div>		
+		</div>
 		<div id="dialogs" class="ui-helper-hidden">
+			<div id="dialogDiffNowCli" title="diffnow-cli">
+				<div class="quickInfo">
+					@TODO!
+				</div>
+			</div>
+			<div id="dialogPhonRule" title="phon_rule">
+				<div class="quickInfo">
+					@TODO!
+				</div>
+			</div>
+			<div id="dialogFourKingsChess" title="Four Kings Chess">
+				<div class="quickInfo">
+					@TODO!
+				</div>
+			</div>
 			<div id="dialogECMAchine" title="ECMAchine">
 				<div class="quickInfo">
 					<b>Languages:</b> JavaScript, ECMAchine's own Scheme dialect<br>
 					<b>Technologies:</b> jQuery
 				</div>
-				<p><a href="http://alex.nisnevich.com/ecmachine">ECMAchine</a> is an in-browser Scheme REPL 
-					that is also a toy operating system. It has a virtual filesystem that is accessed through 
+				<p><a href="http://alex.nisnevich.com/ecmachine">ECMAchine</a> is an in-browser Scheme REPL
+					that is also a toy operating system. It has a virtual filesystem that is accessed through
 					Unix-like commands, as well as a rudimentary process management system.</p>
 				<h3>Links</h3>
 				<p>
@@ -65,8 +82,8 @@
 				<p><a href="http://www.problemsetmarmoset.com">Problem Set? Marmoset!</a> is an online LaTeX editor
 					and motivational tool, intended as a spinoff of <a href="http://www.writtenkitten.net">Written? Kitten!</a>
 					for science students. Reward yourself for your hard work with adorable pictures of marmosets! LaTeX is
-					rendered automatically thanks to <a href="http://www.quicklatex.com/">QuickLaTeX</a> and 
-					<a href="http://www.mathtran.org/">MathTran</a>. 
+					rendered automatically thanks to <a href="http://www.quicklatex.com/">QuickLaTeX</a> and
+					<a href="http://www.mathtran.org/">MathTran</a>.
 					<a href="https://github.com/AlexNisnevich/ProblemSetMarmoset">Source code</a> is available.</p>
 			</div>
 			<div id="dialogDiffNow" title="DiffNow">
@@ -79,8 +96,8 @@
 					<b>Technologies:</b> ASP.NET, jQuery, SCSS
 				</div>
 				<p><a href="http://www.diffnow.com">DiffNow</a> is an online comparison tool for comparing plain text,
-					source code, documents, or archives online. It also lets users share interactive comparison reports. 
-					I built the frontend of DiffNow, while the backend is powered by 
+					source code, documents, or archives online. It also lets users share interactive comparison reports.
+					I built the frontend of DiffNow, while the backend is powered by
 					<a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>.</p>
 			</div>
 			<div id="dialogNotASoul" title="Not a Soul in the World">
@@ -93,7 +110,7 @@
 				</div>
 				<p>In Not a Soul in the World, you play the part of a psychologist trying to convince an
 					uploaded mind that it is human. I made it for
-					the <a href="http://www.ludumdare.com/compo/ludum-dare-22/">22nd Ludum Dare</a> 48-hour game 
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-22/">22nd Ludum Dare</a> 48-hour game
 					development competition (the theme was "Alone").</p>
 				<h3>Links</h3>
 				<ul>
@@ -112,7 +129,7 @@
 					<b>Technologies:</b> Rails, SQLite, Heroku, Google Maps API, SCSS
 				</div>
 				<p><a href="http://www.gromunity.com">Gromunity</a> is a working prototype of an online community for urban
-					gardens, in a form of a local market for selling, borrowing, and trading produce, tools, and manpower. We 
+					gardens, in a form of a local market for selling, borrowing, and trading produce, tools, and manpower. We
 					made for the first <a href="http://cleanwebhack.com/hackathon/">Cleanweb Hackathon</a> in San Francisco. The
 					site is mostly functional but inactive: we weren't able to market it successfully after the hackathon.
 				</p>
@@ -122,12 +139,12 @@
 					<b>Languages:</b> PHP, JavaScript<br>
 					<b>Technologies:</b> Yii
 				</div>
-				<p>I've always been annoyed by incorrect pluralization in websites ("1 events", etc), so I developed 
+				<p>I've always been annoyed by incorrect pluralization in websites ("1 events", etc), so I developed
 					<a href="http://www.yiiframework.com/extension/pluralizer/">pluralizer</a>, a Yii widget that correctly
 					pluralizes labels for dynamic data. Usage is simple: an instance of the widget is created with the singular
 					and plural forms specified for all labels, and a JavaScript function must be called whenever data changes
 					to refresh the labels.</p>
-				<p>I wrote a short article (if a Facebook note can be called an article) about pluralizer 
+				<p>I wrote a short article (if a Facebook note can be called an article) about pluralizer
 					<a href="https://www.facebook.com/note.php?note_id=10150192078026685">here</a>.</p>
 			</div>
 			<div id="dialogCitySandbox" title="CitySandbox">
@@ -140,7 +157,7 @@
 				<p>CitySandbox was a platform for residents of the Bay Area to ask questions and voice concerns about
 					their communities. Users could post questions on the map in a sort of Reddit / Stack Overflow / Google Maps
 					mashup, and the site could even generate mini-flyers with QR codes for questions and events. CitySandbox is
-					unfortunately no longer active, but you can read about it 
+					unfortunately no longer active, but you can read about it
 					<a href="http://allthingsd.com/20110811/citysandbox-berkeley-lab-launches-qa-site-for-civic-action/">here</a>.</p>
 			</div>
 			<div id="dialogJezzball" title="JezzBall 3D">
@@ -181,7 +198,7 @@
 					<b>Tools:</b> Adobe Flex, FlashPunk, sfxr, GXSCC, Paint.NET, Photoshop
 				</div>
 				<p>It's Not Easy Being Muammar is a satire of NATO intervention in the Libyan civil war that I made for
-					the <a href="http://www.ludumdare.com/compo/ludum-dare-20/">20th Ludum Dare</a> 48-hour game 
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-20/">20th Ludum Dare</a> 48-hour game
 					development competition (the theme was "It's dangerous to go alone! Take this!").</p>
 				<h3>Links</h3>
 				<ul>
@@ -199,20 +216,20 @@
 					<b>Languages:</b> PHP, JavaScript<br>
 					<b>Technologies:</b> Yii, MySQL, jQuery
 				</div>
-				<p>Cal Day Photo Hunt was a competitive scavenger hunt run by the Social Apps Lab on 
+				<p>Cal Day Photo Hunt was a competitive scavenger hunt run by the Social Apps Lab on
 					<a href="http://calday.berkeley.edu/">Cal Day 2011</a>, with the goal of getting visitors to pay
-					more attention to their environment. The results of the Photo Hunt can be seen 
+					more attention to their environment. The results of the Photo Hunt can be seen
 					<a href="http://74.208.133.97/yii/photogame/">here</a>.</p>
 			</div>
 			<div id="dialogOOXML2Txt" title="OOXML2Txt">
 				<div class="quickInfo">
 					<b>Made for:</b> <a href="http://www.prestosoft.com">PrestoSoft</a><br>
 					<b>Language:</b> C#
-					<p>OOXML2Txt is (as far as I can tell) the first free 
-						<a href="http://en.wikipedia.org/wiki/Office_Open_XML">OpenXML</a>-to-text 
-						converter, and can convert Word, Excel, and PowerPoint 2007+ files to text/csv files. It was developed 
-						as a plug-in for <a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>, but 
-						is a general-purpose command-line utility. You can download it 
+					<p>OOXML2Txt is (as far as I can tell) the first free
+						<a href="http://en.wikipedia.org/wiki/Office_Open_XML">OpenXML</a>-to-text
+						converter, and can convert Word, Excel, and PowerPoint 2007+ files to text/csv files. It was developed
+						as a plug-in for <a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>, but
+						is a general-purpose command-line utility. You can download it
 						<a href="http://www.prestosoft.com/download/plugins/OOXML2Txt.zip">here</a>.</p>
 				</div>
 			</div>
@@ -224,9 +241,9 @@
 					<b>Language:</b> ActionScript<br>
 					<b>Tools:</b> Flash, Paint.NET, Audacity, Finale Notepad, sfxr, GXSCC
 				</div>
-				<p>Terra Nova is an exploration game based on Captain Robert Scott's 
+				<p>Terra Nova is an exploration game based on Captain Robert Scott's
 					<a href="http://en.wikipedia.org/wiki/Terra_Nova_Expedition">failed Antarctic expedition</a> that I made for
-					the <a href="http://www.ludumdare.com/compo/ludum-dare-19/">19th Ludum Dare</a> 48-hour game 
+					the <a href="http://www.ludumdare.com/compo/ludum-dare-19/">19th Ludum Dare</a> 48-hour game
 					development competition (the theme was "Discovery").</p>
 				<h3>Links</h3>
 				<ul>
@@ -241,8 +258,8 @@
 					<b>Language:</b> JavaScript<br>
 					<b>Technologies:</b> Greasemonkey
 				</div>
-				<p>RickRemoval is a multi-browser extension that automatically detects rickroll videos and prevents 
-					them from playing. It was developed for the 2010 
+				<p>RickRemoval is a multi-browser extension that automatically detects rickroll videos and prevents
+					them from playing. It was developed for the 2010
 					<a href="http://developer.yahoo.com/hacku/cal.html">Yahoo Hack-U</a> event at U.C. Berkeley.</p>
 				<h3>Install</h3>
 				<ul>
@@ -257,12 +274,12 @@
 				<div class="quickInfo">
 					<b>Internship at:</b> <a href="http://www.rootmusic.com">RootMusic</a><br>
 					<b>Languages:</b> PHP, Java, JavaScript, ActionScript<br>
-					<b>Technologies:</b> Kohana, MySQL, jQuery, FBML/FBJS 
+					<b>Technologies:</b> Kohana, MySQL, jQuery, FBML/FBJS
 				</div>
 				<p><a href="http://www.rootmusic.com">RootMusic BandPage</a> is a Facebook application that lets
 					musicians create dynamic pages to engage their fans.</p>
-				<p>During my internship at RootMusic, I designed and developed the 
-						<a href="http://listn.to">listn.to</a> URL shortener, built the first working prototype of the 
+				<p>During my internship at RootMusic, I designed and developed the
+						<a href="http://listn.to">listn.to</a> URL shortener, built the first working prototype of the
 						BandPage Player, and worked on various features in the Facebook app and on the site.</p>
 			</div>
 		</div>
