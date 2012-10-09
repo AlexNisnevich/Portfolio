@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="styles/portfolio.css">
 	</head>
 	<body>
-		<a href="https://git.io/a-n"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+		<a href="http://git.io/a-n"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 		<div id="container">
 			<div id="sidebar">
 				<div id="years"></div>
@@ -42,18 +42,42 @@
 		<div id="dialogs" class="ui-helper-hidden">
 			<div id="dialogDiffNowCli" title="diffnow-cli">
 				<div class="quickInfo">
-					@TODO!
+					<b>Languages:</b> Bash<br>
+					<b>Technologies:</b> cURL
 				</div>
+				<p><a href="https://github.com/AlexNisnevich/diffnow-cli">diffnow-cli</a> is a shell utility that allows you to compare files or URLs via <a href="http://www.diffnow.com">DiffNow</a> from the (Linux or Mac OS X) command line, with the results returned as a shortened URL or as a downloaded diff report.</p>
+				<p>While I had worked on DiffNow the year before, I challenged myself to use no prior knowledge of DiffNow's 	architecture while developing diffnow-cli, and relied entirely on inspecting requests made within the web application in order to determine how to simulate interaction with it via cURL.</p>
 			</div>
 			<div id="dialogPhonRule" title="phon_rule">
 				<div class="quickInfo">
-					@TODO!
+					<b>Languages:</b> LaTeX
 				</div>
+				<p>Frustrated by the lack of convenient libraries for typesetting phonological rules in LaTeX, I set about to make my own. The result is <a href="">phon_rule</a>, an phonological rule environment that stresses ease of use. For example, </p>
+				<pre>
+\begin{phon_rule}
+	\cv{N} \> \features{\f{\alpha}{place}} \/
+	\_ \cvfeatures{C}{\f{\alpha}{place}}
+\end{phon_rule}</pre>
+				<p>becomes</p>
+				<img src="images/nasal_place_assimilation.png">
 			</div>
-			<div id="dialogFourKingsChess" title="Four Kings Chess">
-				<div class="quickInfo">
-					@TODO!
+			<div id="dialogFourKingsChess" title="Four Kings">
+				<div style="text-align: center; font-family: 'Montez', serif; font-size: 48px; color: #666; text-shadow: 1px 1px 2px #CCC; font-weight: bold;">
+					Four Kings Chess
 				</div>
+				<div class="quickInfo">
+					<b>Languages:</b> JavaScript, C#<br>
+					<b>Technologies:</b> ASP.NET MVC, Mootools, SCSS<br>
+					<b>Special thanks to:</b> John Fritzen and Stephen Liu
+				</div>
+				<p> <a href="http://www.fourkingschess.com/">Four Kings Chess</a> is an online four-player chess game with different nations (each nation providing different abilities to its player), developed as an online multiplayer version of my popular chess variant <a href="http://alex.nisnevich.com/eurochess/">European Chess</a>. The game is fully playable (with 15 nations working), but the documentation is nonexistent and the artwork is not quite complete.</p>
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://www.fourkingschess.com/">Four Kings Chess homepage</a></li>
+					<li><a href="http://www.fourkingschess.com/Games">Play a multiplayer game</a></li>
+					<li><a href="http://www.fourkingschess.com/local/">Play a hotseat (4 players, 1 computer) game</a></li>
+					<li><a href="http://alex.nisnevich.com/eurochess/">European Chess homepage and rules</a></li>
+				</ul>
 			</div>
 			<div id="dialogECMAchine" title="ECMAchine">
 				<div class="quickInfo">
@@ -144,8 +168,7 @@
 					pluralizes labels for dynamic data. Usage is simple: an instance of the widget is created with the singular
 					and plural forms specified for all labels, and a JavaScript function must be called whenever data changes
 					to refresh the labels.</p>
-				<p>I wrote a short article (if a Facebook note can be called an article) about pluralizer
-					<a href="https://www.facebook.com/note.php?note_id=10150192078026685">here</a>.</p>
+				<p>I wrote a short article about pluralizer <a href="http://alex.nisnevich.com/blog/2012/07/30/dynamic_pluralization.html">here</a>.</p>
 			</div>
 			<div id="dialogCitySandbox" title="CitySandbox">
 				<img src="images/citysandbox2.png">
@@ -225,13 +248,13 @@
 				<div class="quickInfo">
 					<b>Made for:</b> <a href="http://www.prestosoft.com">PrestoSoft</a><br>
 					<b>Language:</b> C#
-					<p>OOXML2Txt is (as far as I can tell) the first free
-						<a href="http://en.wikipedia.org/wiki/Office_Open_XML">OpenXML</a>-to-text
-						converter, and can convert Word, Excel, and PowerPoint 2007+ files to text/csv files. It was developed
-						as a plug-in for <a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>, but
-						is a general-purpose command-line utility. You can download it
-						<a href="http://www.prestosoft.com/download/plugins/OOXML2Txt.zip">here</a>.</p>
 				</div>
+				<p>OOXML2Txt is (as far as I can tell) the first free
+					<a href="http://en.wikipedia.org/wiki/Office_Open_XML">OpenXML</a>-to-text
+					converter, and can convert Word, Excel, and PowerPoint 2007+ files to text/csv files. It was developed
+					as a plug-in for <a href="http://www.prestosoft.com/edp_examdiffpro.asp">ExamDiff Pro</a>, but
+					is a general-purpose command-line utility. You can download it
+					<a href="http://www.prestosoft.com/download/plugins/OOXML2Txt.zip">here</a>.</p>
 			</div>
 			<div id="dialogTerraNova" title="Terra Nova">
 				<a href="http://www.nisnevich.com/alex/creations/terra-nova-ld.html">

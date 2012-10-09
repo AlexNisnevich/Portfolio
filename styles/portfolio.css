@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Montez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montez'), local('Montez-Regular'), url(http://themes.googleusercontent.com/static/fonts/montez/v3/Zfcl-OLECD6-4EcdWMp-Tw.woff) format('woff');
+}
+
 /*
  * Container
  */
@@ -284,8 +291,12 @@ body.noScrollY {
 	font-size: 0.8em;
 }
 
+.ui-dialog-content a:hover {
+	text-decoration: none;
+}
+
 .ui-dialog-content img {
-	display: block; 
+	display: block;
 	margin: 5px auto;
 	border: 0;
 }
