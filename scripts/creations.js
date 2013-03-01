@@ -1,5 +1,14 @@
 var creations = [
 	{
+		"name": "Sentinel",
+		"category": "fun",
+		"start": { "year": 2013, "month": 2 },
+		"end": { "year": 2013, "month": 2 },
+		"classes": ["centerLeft", "team"],
+		"description": "A cross-platform face-tracking solution using a USB missile launcher and webcam.",
+		"dialogId": "dialogSentinel",
+		"dialogDimensions": [500, "auto"]
+	},{
 		"name": "diffnow-cli",
 		"category": "tools",
 		"start": { "year": 2012, "month": 7 },
@@ -19,7 +28,7 @@ var creations = [
 		"dialogDimensions": [500, "auto"]
 	},{
 		"name": "ECMAchine",
-		"category": "tools",
+		"category": "fun",
 		"start": { "year": 2012, "month": 2 },
 		"end": { "year": 2012, "month": 5 },
 		"classes": ["left", "solo"],
@@ -37,7 +46,7 @@ var creations = [
 		"dialogDimensions": [500, "auto"]
 	},{
 		"name": "Problem Set? Marmoset!",
-		"category": "tools",
+		"category": "fun",
 		"start": { "year": 2011, "month": 12 },
 		"end": { "year": 2012, "month": 1 },
 		"classes": ["right", "team"],
@@ -65,28 +74,28 @@ var creations = [
 		"dialogDimensions": [600, "auto"]
 	},{
 		"name": "Gromunity",
-		"category": "social",
+		"category": "tools",
 		"start": { "year": 2011, "month": 9 },
 		"end": { "year": 2011, "month": 9 },
-		"classes": ["center", "team"],
+		"classes": ["right", "team"],
 		"description": "A prototype of an online community for urban gardeners, built for the inaugural CleanWeb Hackathon.",
 		"dialogId": "dialogGromunity",
 		"dialogDimensions": [500, "auto"]
 	},{
 		"name": "pluralizer",
 		"category": "tools",
-		"start": { "year": 2011, "month": 7 },
-		"end": { "year": 2011, "month": 7 },
+		"start": { "year": 2011, "month": 8 },
+		"end": { "year": 2011, "month": 8 },
 		"classes": ["right", "solo"],
 		"description": "A Yii widget to correctly pluralize dynamic data labels.",
 		"dialogId": "dialogPluralizer",
 		"dialogDimensions": [450, "auto"]
 	},{
 		"name": "CitySandbox",
-		"category": "social",
+		"category": "tools",
 		"start": { "year": 2011, "month": 5 },
 		"end": { "year": 2011, "month": 7 },
-		"classes": ["center", "company"],
+		"classes": ["right", "company"],
 		"description": "A platform for participatory democracy, built for the Social Apps Lab at CITRIS.",
 		"dialogId": "dialogCitySandbox",
 		"dialogDimensions": [500, "auto"]
@@ -111,7 +120,7 @@ var creations = [
 		"dialogDimensions": [600, "auto"]
 	},{
 		"name": "Cal Day Photo Hunt",
-		"category": "social",
+		"category": "fun",
 		"start": { "year": 2011, "month": 2 },
 		"end": { "year": 2011, "month": 4 },
 		"classes": ["center", "company"],
@@ -138,7 +147,7 @@ var creations = [
 		"dialogDimensions": [600, "auto"]
 	},{
 		"name": "RickRemoval",
-		"category": "tools",
+		"category": "fun",
 		"start": { "year": 2010, "month": 10 },
 		"end": { "year": 2010, "month": 10 },
 		"classes": ["center", "team"],
@@ -147,7 +156,7 @@ var creations = [
 		"dialogDimensions": [500, "auto"]
 	},{
 		"name": "RootMusic BandPage",
-		"category": "social",
+		"category": "tools",
 		"start": { "year": 2010, "month": 2 },
 		"end": { "year": 2010, "month": 7 },
 		"classes": ["center", "company"],
