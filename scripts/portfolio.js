@@ -85,6 +85,7 @@ function addItem(item) {
 
 	point.click(function () {
 		dialogElt.dialog('open');
+		$.get('click/?id=' + (item.name ? item.name : ''));
 	}).hover(function () {
 		$(this).addClass('hover');
 		$(this).find('.caption').hide();
