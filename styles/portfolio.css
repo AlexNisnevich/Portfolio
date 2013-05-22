@@ -30,6 +30,36 @@ body.noScrollY {
 }
 
 /*
+ * Header
+ */
+
+#header {
+	width: 100%;
+	padding: 4px;
+	margin-bottom: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: right;
+}
+
+#header a {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 0 4px;
+	color: white;
+}
+
+#header a:hover {
+	background-color: white;
+	color: #333;
+}
+
+#header a.secondary_link {
+	margin-left: 15px;
+	color: #444;
+}
+
+/*
  * Sidebar
  */
 
@@ -291,7 +321,7 @@ body.noScrollY {
 	font-size: 0.8em;
 }
 
-.ui-dialog-content a:hover, .ui-dialog-content a.noLink {
+.ui-dialog-content a:hover {
 	text-decoration: none;
 }
 
