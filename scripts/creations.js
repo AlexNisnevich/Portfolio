@@ -1,5 +1,10 @@
 var creations = [
 	{
+		"category": "games",
+		"start": { "year": 2013, "month": 2 },
+		"end": { "year": 2013, "month": 7 },
+		"classes": ["left", "inprogress"]
+	},{
 		"name": "Sentinel",
 		"category": "fun",
 		"start": { "year": 2013, "month": 2 },
