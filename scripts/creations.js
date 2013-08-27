@@ -1,8 +1,18 @@
 var creations = [
 	{
+		"name": "10 Second Roguelike",
+		"category": "games",
+		"start": { "year": 2013, "month": 8 },
+		"end": { "year": 2013, "month": 8 },
+		"classes": ["right", "solo"],
+		"captionOffset": -8,
+		"description": "My entry into Ludum Dare #27. A fast-paced roguelike-like.",
+		"dialogId": "dialog10SecondRoguelike",
+		"dialogDimensions": [600, "auto"]
+	},{
 		"category": "games",
 		"start": { "year": 2013, "month": 2 },
-		"end": { "year": 2013, "month": 7 },
+		"end": { "year": 2013, "month": 8 },
 		"classes": ["left", "inprogress"]
 	},{
 		"name": "Sentinel",
