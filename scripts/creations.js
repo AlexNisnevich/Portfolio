@@ -8,7 +8,7 @@ var creations = [
 		"captionOffset": -8,
 		"description": "My entry into Ludum Dare #27. A fast-paced roguelike-like.",
 		"dialogId": "dialog10SecondRoguelike",
-		"dialogDimensions": [600, "auto"]
+		"dialogDimensions": [530, "auto"]
 	},{
 		"category": "games",
 		"start": { "year": 2013, "month": 2 },
