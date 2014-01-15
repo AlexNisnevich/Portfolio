@@ -10,10 +10,14 @@ var creations = [
 		"dialogId": "dialog10SecondRoguelike",
 		"dialogDimensions": [530, "auto"]
 	},{
+		"name": "Untrusted",
 		"category": "games",
-		"start": { "year": 2013, "month": 2 },
-		"end": { "year": 2013, "month": 8 },
-		"classes": ["left", "inprogress"]
+		"start": { "year": 2013, "month": 3 },
+		"end": { "year": 2014, "month": 1 },
+		"classes": ["left", "team", "inprogress"],
+		"description": "A meta-JavaScript adventure game, in which players must modify the game's code to complete puzzles.",
+		"dialogId": "dialogUntrusted",
+		"favorite": true
 	},{
 		"name": "Sentinel",
 		"category": "fun",
@@ -22,7 +26,8 @@ var creations = [
 		"classes": ["centerLeft", "team"],
 		"description": "A cross-platform face-tracking solution using a USB missile launcher and webcam.",
 		"dialogId": "dialogSentinel",
-		"dialogDimensions": [500, "auto"]
+		"dialogDimensions": [500, "auto"],
+		"favorite": true
 	},{
 		"name": "diffnow-cli",
 		"category": "tools",
@@ -37,7 +42,7 @@ var creations = [
 		"category": "tools",
 		"start": { "year": 2012, "month": 4 },
 		"end": { "year": 2012, "month": 4 },
-		"classes": ["right", "solo"],
+		"classes": ["centerRight", "solo"],
 		"description": "A simple LaTeX environment for typesetting phonological rules.",
 		"dialogId": "dialogPhonRule",
 		"dialogDimensions": [500, "auto"]
@@ -49,7 +54,8 @@ var creations = [
 		"classes": ["left", "solo"],
 		"description": "Lisp-based in-browser toy operating system.",
 		"dialogId": "dialogECMAchine",
-		"dialogDimensions": [500, "auto"]
+		"dialogDimensions": [500, "auto"],
+		"favorite": true
 	},{
 		"name": "Four Kings Chess",
 		"category": "games",
@@ -76,7 +82,8 @@ var creations = [
 		"classes": ["left", "company"],
 		"description": "Online utility to compare files and share comparison reports, powered by ExamDiff Pro.",
 		"dialogId": "dialogDiffNow",
-		"dialogDimensions": [500, "auto"]
+		"dialogDimensions": [500, "auto"],
+		"favorite": true
 	},{
 		"name": "Not a Soul in the World",
 		"category": "games",
@@ -170,7 +177,7 @@ var creations = [
 		"dialogId": "dialogRickRemoval",
 		"dialogDimensions": [500, "auto"]
 	},{
-		"name": "RootMusic BandPage",
+		"name": "listn.to",
 		"category": "tools",
 		"start": { "year": 2010, "month": 2 },
 		"end": { "year": 2010, "month": 7 },

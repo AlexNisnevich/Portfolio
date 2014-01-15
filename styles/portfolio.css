@@ -201,15 +201,7 @@ body.noScrollY {
 }
 
 .point.inprogress {
-	border: 1px dashed #999;
-	cursor: default;
-}
-
-.point.inprogress.hover {
-	left: 125px;
-	padding: 5px;
-	margin-top: 0;
-	border-width: 1px;
+	border-style: dashed;
 }
 
 /*
@@ -314,6 +306,24 @@ body.noScrollY {
 }
 
 /*
+ * Favorites
+ */
+
+.point.left .star, .point.centerLeft .star {
+	margin-right: 1em;
+}
+
+.point.right .star, .point.centerRight .star {
+	margin-left: 1em;
+}
+
+.star img {
+	width: 16px;
+	height: 16px;
+	margin-bottom: 2px;
+}
+
+/*
  * Dialogs
  */
 
@@ -345,9 +355,13 @@ body.noScrollY {
  * Special dialogs
  */
 
-#dialogECMAchine, #dialogECMAchine .quickInfo, #dialogECMAchine a {
+.dialogBlack, .dialogBlack .quickInfo, .dialogBlack a {
 	font-family: monospace;
 	font-size: 13px;
 	color: #AAA !important;
-	background-color: black;
+	background-color: black !important;
+}
+
+#dialogUntrusted a:hover pre {
+	font-weight: bold;
 }

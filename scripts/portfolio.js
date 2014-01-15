@@ -1,4 +1,4 @@
-var latestDate = {'year': 2013, 'month': 8};
+var latestDate = {'year': 2014, 'month': 1};
 var earliestDate = {'year': 2010, 'month': 1};
 
 function dateToHeight(year, month) {
@@ -7,12 +7,12 @@ function dateToHeight(year, month) {
 }
 
 function addYear(year) {
-	var yearElt = $('<div>').text(year).css('top', dateToHeight(year, 0));
+	var yearElt = $('<div>').text(year).css('top', dateToHeight(year, 0) + 60);
 	$('#years').append(yearElt);
 }
 
 function addSideText(txt, year, month, cssClass) {
-	var textElt = $('<div>').html(txt).css('top', dateToHeight(year, month)).addClass(cssClass);
+	var textElt = $('<div>').html(txt).css('top', dateToHeight(year, month) + 60).addClass(cssClass);
 	$('#years').append(textElt);
 }
 
@@ -25,6 +25,9 @@ function addItem(item) {
 	var captionOffset = (pointHeight == 0) ? -4 : pointHeight / 2 - 10;
 	if (item.captionOffset) {
 		captionOffset += item.captionOffset;
+	}
+	if (item.favorite) {
+		captionOffset -= 8;
 	}
 	var calloutOffset = (pointHeight == 0) ? -8 : captionOffset;
 
@@ -43,6 +46,13 @@ function addItem(item) {
 	if (item.name) {
 		var caption = $('<div>', {'class': 'caption'}).text(item.name).css('top', captionOffset);
 		point.append(caption);
+
+		// Star
+
+		if (item.favorite) {
+			var star = $('<div>', {'class': 'star'}).html('<img src="images/star.png">');
+			caption.prepend(star);
+		}
 	}
 
 
