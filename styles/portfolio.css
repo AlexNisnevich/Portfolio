@@ -313,7 +313,7 @@ body.noScrollY {
 	margin-right: 1em;
 }
 
-.point.right .star, .point.centerRight .star {
+.point.right .star, .point.center .star {
 	margin-left: 1em;
 }
 

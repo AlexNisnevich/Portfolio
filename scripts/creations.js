@@ -10,6 +10,15 @@ var creations = [
 		"dialogId": "dialog10SecondRoguelike",
 		"dialogDimensions": [530, "auto"]
 	},{
+		"name": "k-means Visualizer",
+		"category": "tools",
+		"start": { "year": 2013, "month": 8 },
+		"end": { "year": 2013, "month": 8 },
+		"classes": ["center", "solo"],
+		"description": "An HTML canvas demonstration of the k-means algorithm.",
+		"dialogId": "dialogKMeans",
+		"dialogDimensions": [400, "auto"]
+	},{
 		"name": "Untrusted",
 		"category": "games",
 		"start": { "year": 2013, "month": 3 },
@@ -28,6 +37,15 @@ var creations = [
 		"dialogId": "dialogSentinel",
 		"dialogDimensions": [500, "auto"],
 		"favorite": true
+	},{
+		"name": "melody.py",
+		"category": "fun",
+		"start": { "year": 2012, "month": 10 },
+		"end": { "year": 2012, "month": 10 },
+		"classes": ["center", "solo"],
+		"description": "A simple (first species) counterpoint melody generator.",
+		"dialogId": "dialogMelodyPy",
+		"dialogDimensions": [530, "auto"]
 	},{
 		"name": "diffnow-cli",
 		"category": "tools",
@@ -179,10 +197,10 @@ var creations = [
 	},{
 		"name": "listn.to",
 		"category": "tools",
-		"start": { "year": 2010, "month": 2 },
+		"start": { "year": 2010, "month": 5 },
 		"end": { "year": 2010, "month": 7 },
 		"classes": ["center", "company"],
-		"description": "A Facebook app for dynamic pages for musicians that I helped work on during an internship.",
+		"description": "A URL shortener that I designed and implemented for BandPage.",
 		"dialogId": "dialogRootMusic",
 		"dialogDimensions": [550, "auto"]
 	}
