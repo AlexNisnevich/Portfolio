@@ -118,9 +118,16 @@ THE CONTINUING ADVENTURES OF DR. EVAL
 			<div id="dialogMelodyPy" title="melody.py">
 				<div class="quickInfo">
 					<b>Language:</b> Python<br>
-					<b>Dependencies:</b> <a href="http://kroger.github.com/pyknon/">Pyknon</a>, <a href="http://timidity.sourceforge.net/">Timidity</a>
+					<b>Technologies:</b> Flask, EC2, Apache, Pyknon, VexFlow, Timidity, FFmpeg, HTML5
 				</div>
-				<p><b><a href="https://github.com/AlexNisnevich/melody.py">melody.py</a></b> generates random 10-note <a href="http://en.wikipedia.org/wiki/Counterpoint#First_species">first species counterpoint</a> melodies by first finding a random <em>cantus firmus</em> melody that matches a set of heuristics and then finding an appropriate counterpoint melody. A total of <a href="https://github.com/AlexNisnevich/melody.py/blob/master/melody.py#L81-L212">16 heuristics</a> are used for each individual melody and <a href="https://github.com/AlexNisnevich/melody.py/blob/master/melody.py#L214-L239">4 heuristics</a> are used to match two melodies in counterpoint. Results are outputted as MIDI files using Pyknon and then played using Timidity.</p>
+				<p><b><a href="https://github.com/AlexNisnevich/melody.py">melody.py</a></b> generates random 10-note <a href="http://en.wikipedia.org/wiki/Counterpoint#First_species">first species counterpoint</a> melodies by first finding a random <em>cantus firmus</em> melody that matches a set of heuristics and then finding an appropriate counterpoint melody. A total of <a href="https://github.com/AlexNisnevich/melody.py#foreachindividualmelody">16 heuristics</a> are used for each individual melody and <a href="https://github.com/AlexNisnevich/melody.py#tomatchcantusfirmusmelodytofirstspeciesmelody">4 heuristics</a> are used to match two melodies in counterpoint. Results are outputted as MIDI files using Pyknon and then played using Timidity.</p>
+				<p>The <a href="http://ec2-54-184-67-209.us-west-2.compute.amazonaws.com"><b>melody.py</b> web server</a> runs as a Flask app on an EC2 instance, and uses VexFlow to draw sheet music and FFmpeg to convert the generated MIDI files to MP3 for HTML5 audio playback.</p>
+				<h3>Links</h3>
+				<ul>
+					<li><a href="http://ec2-54-184-67-209.us-west-2.compute.amazonaws.com/">Live demo on EC2</a></li>
+					<li><a href="https://github.com/AlexNisnevich/melody.py">Source code and installation instructions</a></li>
+					<li><a href="http://www.youtube.com/watch?v=8cF6pfrD4RM">Video demonstration</a></li>
+				</ul>
 				<p></p>
 			</div>
 			<div id="dialogDiffNowCli" title="diffnow-cli">

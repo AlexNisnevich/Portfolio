@@ -45,7 +45,8 @@ var creations = [
 		"classes": ["center", "solo"],
 		"description": "A simple (first species) counterpoint melody generator.",
 		"dialogId": "dialogMelodyPy",
-		"dialogDimensions": [530, "auto"]
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
 	},{
 		"name": "diffnow-cli",
 		"category": "tools",

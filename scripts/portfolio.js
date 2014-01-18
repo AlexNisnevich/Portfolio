@@ -141,7 +141,7 @@ $(document).ready(function() {
 		addYear(i);
 	}
 
-	addSideText('Individual Projects', 2012, 8.5, 'legend green');
+	addSideText('Solo Projects', 2012, 8.5, 'legend green');
 	addSideText('Team Projects', 2012, 7, 'legend blue');
 	addSideText('Corporate / Research Projects', 2012, 5.5, 'legend red');
 
