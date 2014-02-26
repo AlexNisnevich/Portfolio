@@ -28,11 +28,20 @@ var creations = [
 		"dialogId": "dialogUntrusted",
 		"favorite": true
 	},{
+		"name": "glitch_mixer",
+		"category": "fun",
+		"start": { "year": 2013, "month": 2 },
+		"end": { "year": 2013, "month": 3 },
+		"classes": ["right", "solo"],
+		"description": "A mixer and sequencer for minimalist algorithmic compositions.",
+		"dialogId": "dialogGlitchMixer",
+		"dialogDimensions": [670, 500]
+	},{
 		"name": "Sentinel",
 		"category": "fun",
 		"start": { "year": 2013, "month": 2 },
 		"end": { "year": 2013, "month": 2 },
-		"classes": ["centerLeft", "team"],
+		"classes": ["left", "team"],
 		"description": "A cross-platform face-tracking solution using a USB missile launcher and webcam.",
 		"dialogId": "dialogSentinel",
 		"dialogDimensions": [500, "auto"],
