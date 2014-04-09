@@ -22,8 +22,8 @@ var creations = [
 		"name": "Untrusted",
 		"category": "games",
 		"start": { "year": 2013, "month": 3 },
-		"end": { "year": 2014, "month": 1 },
-		"classes": ["left", "team", "inprogress"],
+		"end": { "year": 2014, "month": 4 },
+		"classes": ["left", "team"],
 		"description": "A meta-JavaScript adventure game, in which players must modify the game's code to complete puzzles.",
 		"dialogId": "dialogUntrusted",
 		"favorite": true
