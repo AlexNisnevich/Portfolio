@@ -1,5 +1,14 @@
 var creations = [
 	{
+		"name": "Asteroid Tycoon",
+		"category": "games",
+		"start": { "year": 2014, "month": 4 },
+		"end": { "year": 2014, "month": 4 },
+		"classes": ["right", "team"],
+		"description": "My entry into Ludum Dare #29. A game about automated asteroid mining.",
+		"dialogId": "dialogAsteroidTycoon",
+		"dialogDimensions": [530, "auto"]
+	},{
 		"name": "10 Second Roguelike",
 		"category": "games",
 		"start": { "year": 2013, "month": 8 },
@@ -15,6 +24,7 @@ var creations = [
 		"start": { "year": 2013, "month": 8 },
 		"end": { "year": 2013, "month": 8 },
 		"classes": ["center", "solo"],
+		"captionOffset": -8,
 		"description": "An HTML canvas demonstration of the k-means algorithm.",
 		"dialogId": "dialogKMeans",
 		"dialogDimensions": [400, "auto"]
