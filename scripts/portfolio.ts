@@ -22,22 +22,22 @@ interface Creation {
 var latestDate = {'year': 2014, 'month': 5};
 var earliestDate = {'year': 2010, 'month': 1};
 
-function dateToHeight(year, month) {
+function dateToHeight(year: number, month: number) {
 	var offset = ((latestDate['year'] * 12 + latestDate['month']) - (year * 12 + month)) * 20;
 	return offset + 40;
 }
 
-function addYear(year) {
+function addYear(year: number) {
 	var yearElt = $('<div>').text(year).css('top', dateToHeight(year, 0) + 60);
 	$('#years').append(yearElt);
 }
 
-function addSideText(txt, year, month, cssClass) {
+function addSideText(txt: string, year: number, month: number, cssClass: string) {
 	var textElt = $('<div>').html(txt).css('top', dateToHeight(year, month) + 60).addClass(cssClass);
 	$('#years').append(textElt);
 }
 
-function addItem(item) {
+function addItem(item: Creation) {
 	// Dimensions
 
 	var topHeight = dateToHeight(item.end.year, item.end.month);
