@@ -106,16 +106,14 @@ function addItem(item: Creation) {
 				$(this).find('a').blur();
 			}
 		});
-	} else {
-		dialogElt = {
-			dialog: function () {}
-		}
+		point.click(function() {
+			dialogElt.dialog('open');
+		})
 	}
 
 	// Behavior
 
 	point.click(function () {
-		dialogElt.dialog('open');
 		$('#clickTracker').attr('src', 'click/?id=' + (item.name ? item.name : ''));
 	}).hover(function () {
 		$(this).addClass('hover');

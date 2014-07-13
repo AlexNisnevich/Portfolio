@@ -1,5 +1,6 @@
 /// <reference path="definitions/jquery/jquery.d.ts" />
 /// <reference path="definitions/jqueryui/jqueryui.d.ts" />
+
 var latestDate = { 'year': 2014, 'month': 5 };
 var earliestDate = { 'year': 2010, 'month': 1 };
 
@@ -80,16 +81,13 @@ function addItem(item) {
                 $(this).find('a').blur();
             }
         });
-    } else {
-        dialogElt = {
-            dialog: function () {
-            }
-        };
+        point.click(function () {
+            dialogElt.dialog('open');
+        });
     }
 
     // Behavior
     point.click(function () {
-        dialogElt.dialog('open');
         $('#clickTracker').attr('src', 'click/?id=' + (item.name ? item.name : ''));
     }).hover(function () {
         $(this).addClass('hover');
