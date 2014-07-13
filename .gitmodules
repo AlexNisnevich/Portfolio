@@ -1,0 +1,3 @@
+[submodule "scripts/definitions"]
+	path = scripts/definitions
+	url = https://github.com/borisyankov/DefinitelyTyped
