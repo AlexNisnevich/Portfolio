@@ -1,6 +1,24 @@
 /// <reference path="definitions/jquery/jquery.d.ts" />
 /// <reference path="definitions/jqueryui/jqueryui.d.ts" />
 
+interface CreationDate {
+	year: number;
+	month: number;
+}
+
+interface Creation {
+	name: string;
+	category: string;
+	start: CreationDate;
+	end: CreationDate;
+	classes: string[];
+	description: string;
+	dialogId: string;
+	dialogDimensions: any[];
+	captionOffset?: number;
+	favorite?: boolean;
+}
+
 var latestDate = {'year': 2014, 'month': 5};
 var earliestDate = {'year': 2010, 'month': 1};
 
