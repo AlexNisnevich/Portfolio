@@ -122,8 +122,13 @@ function checkScrollbars() {
 }
 
 $(document).ready(function () {
-    $.each(creations, function (i, item) {
-        addItem(item);
+    $("[type='x-data/creations']").each(function (i, elem) {
+        var src = $(elem).attr('src');
+        $.getJSON(src, function (data) {
+            $.each(data, function (i, item) {
+                addItem(item);
+            });
+        });
     });
 
     var totalHeight = dateToHeight(earliestDate.year, earliestDate.month) - dateToHeight(latestDate.year, latestDate.month) + 100;
