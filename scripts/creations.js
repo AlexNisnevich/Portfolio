@@ -1,11 +1,21 @@
 var creations = [
 	{
+		"name": "Shattered Worlds",
+		"category": "games",
+		"start": { "year": 2014, "month": 8 },
+		"end": { "year": 2014, "month": 8 },
+		"classes": ["center", "team"],
+		"description": "My team's entry into Ludum Dare #30. A puzzle platformer with a twist.",
+		"dialogId": "dialogShatteredWorlds",
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
+	},{
 		"name": "Asteroid Tycoon",
 		"category": "games",
 		"start": { "year": 2014, "month": 4 },
 		"end": { "year": 2014, "month": 4 },
 		"classes": ["right", "team"],
-		"description": "My entry into Ludum Dare #29. A game about automated asteroid mining.",
+		"description": "My team's entry into Ludum Dare #29. A game about automated asteroid mining.",
 		"dialogId": "dialogAsteroidTycoon",
 		"dialogDimensions": [530, "auto"]
 	},{
@@ -64,8 +74,8 @@ var creations = [
 		"classes": ["center", "solo"],
 		"description": "A simple (first species) counterpoint melody generator.",
 		"dialogId": "dialogMelodyPy",
-		"dialogDimensions": [530, "auto"],
-		"favorite": true
+		"dialogDimensions": [530, "auto"]
+		//"favorite": true
 	},{
 		"name": "diffnow-cli",
 		"category": "tools",
