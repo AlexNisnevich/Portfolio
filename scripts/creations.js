@@ -12,7 +12,7 @@ var creations = [
 		"start": { "year": 2015, "month": 4 },
 		"end": { "year": 2015, "month": 4 },
 		"classes": ["centerLeft", "team"],
-		"description": "A browser extension to track agricultural water usage of recipes, built for LA Hacks.",
+		"description": "A browser extension and API to track agricultural water usage of recipes, built for LA Hacks.",
 		"dialogId": "dialogSplooshed",
 		"dialogDimensions": [530, "auto"]
 	},
