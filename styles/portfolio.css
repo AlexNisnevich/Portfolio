@@ -204,6 +204,10 @@ body.noScrollY {
 	border-style: dashed;
 }
 
+.point.inprogress .callout {
+	cursor: auto;
+}
+
 /*
  * Captions
  */
@@ -264,6 +268,13 @@ body.noScrollY {
 .callout .description {
 	margin-top: 3px;
 	text-align: left;
+}
+
+.callout .description .wip {
+	display: block;
+	padding-top: 0.3em;
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 .callout:before, .callout:after {
@@ -356,10 +367,13 @@ body.noScrollY {
  */
 
 .dialogBlack, .dialogBlack .quickInfo, .dialogBlack a {
-	font-family: monospace;
-	font-size: 13px;
 	color: #AAA !important;
 	background-color: black !important;
+}
+
+.dialogMonospace, .dialogMonospace .quickInfo, .dialogMonospace a {
+	font-family: monospace;
+	font-size: 13px;
 }
 
 #dialogUntrusted a:hover pre {

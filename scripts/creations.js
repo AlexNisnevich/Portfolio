@@ -1,5 +1,37 @@
 var creations = [
 	{
+		"name": "aucoder",
+		"category": "fun",
+		"start": { "year": 2015, "month": 4 },
+		"end": { "year": 2015, "month": 4 },
+		"classes": ["center", "team", "inprogress"],
+		"description": "A Python utility to 'cover' a song using only clips from another song. <span class='wip'>Currently a work-in-progress. Check it out <a href='https://github.com/turian/aucoder'>on GitHub</a>.</span>"
+	},{
+		"name": "Splooshed",
+		"category": "tools",
+		"start": { "year": 2015, "month": 4 },
+		"end": { "year": 2015, "month": 4 },
+		"classes": ["centerLeft", "team"],
+		"description": "A browser extension to track agricultural water usage of recipes, built for LA Hacks.",
+		"dialogId": "dialogSplooshed",
+		"dialogDimensions": [530, "auto"]
+	},
+	/*{
+		"name": "montague",
+		"category": "tools",
+		"start": { "year": 2014, "month": 12 },
+		"end": { "year": 2015, "month": 1 },
+		"classes": ["center", "company", "inprogress"],
+		"description": "TODO"
+	},*/
+	{
+		"name": "Voluspa",
+		"category": "games",
+		"start": { "year": 2014, "month": 11 },
+		"end": { "year": 2015, "month": 3 },
+		"classes": ["center", "team", "inprogress"],
+		"description": "A tile-placing board game in Elm; an experiment in functional reactive programming. <span class='wip'>Currently a work-in-progress. Check out the <a href='https://github.com/AlexNisnevich/voluspa'>client</a> and <a href='https://github.com/neunenak/voluspa-server'>server</a> on GitHub."
+	},{
 		"name": "Shattered Worlds",
 		"category": "games",
 		"start": { "year": 2014, "month": 8 },
