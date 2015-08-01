@@ -25,12 +25,13 @@ var creations = [
 		"description": "TODO"
 	},*/
 	{
-		"name": "Voluspa",
+		"name": "Kalevala",
 		"category": "games",
 		"start": { "year": 2014, "month": 11 },
-		"end": { "year": 2015, "month": 3 },
-		"classes": ["center", "team", "inprogress"],
-		"description": "A tile-placing board game in Elm; an experiment in functional reactive programming. <span class='wip'>Currently a work-in-progress. Check out the <a href='https://github.com/AlexNisnevich/voluspa'>client</a> and <a href='https://github.com/neunenak/voluspa-server'>server</a> on GitHub."
+		"end": { "year": 2015, "month": 5 },
+		"classes": ["center", "team"],
+		"description": "A tile-placing board game in Elm; an experiment in functional reactive programming.",
+		"dialogId": "dialogKalevala"
 	},{
 		"name": "Shattered Worlds",
 		"category": "games",
@@ -256,14 +257,5 @@ var creations = [
 		"description": "A browser extension to block rickroll videos, built for Yahoo Hack-U.",
 		"dialogId": "dialogRickRemoval",
 		"dialogDimensions": [500, "auto"]
-	},{
-		"name": "listn.to",
-		"category": "tools",
-		"start": { "year": 2010, "month": 5 },
-		"end": { "year": 2010, "month": 7 },
-		"classes": ["center", "company"],
-		"description": "A URL shortener that I designed and implemented for BandPage.",
-		"dialogId": "dialogRootMusic",
-		"dialogDimensions": [550, "auto"]
 	}
 ];

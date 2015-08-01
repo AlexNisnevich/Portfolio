@@ -1,5 +1,5 @@
-var latestDate = {'year': 2015, 'month': 4};
-var earliestDate = {'year': 2010, 'month': 1};
+var latestDate = {'year': 2015, 'month': 6};
+var earliestDate = {'year': 2011, 'month': 1};
 
 function dateToHeight(year, month) {
 	var offset = ((latestDate['year'] * 12 + latestDate['month']) - (year * 12 + month)) * 20;
