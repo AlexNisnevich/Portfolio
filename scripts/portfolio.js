@@ -50,7 +50,7 @@ function addItem(item) {
 		// Star
 
 		if (item.favorite) {
-			var star = $('<div>', {'class': 'star'}).html('<img src="images/star.png">');
+			var star = $('<div>', {'class': 'star'}).html('<i class="material-icons">star</i>');
 			caption.prepend(star);
 		}
 	}
