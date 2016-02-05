@@ -1,5 +1,31 @@
 var creations = [
 	{
+		"name": "ilikeberniebut.com",
+		"category": "tools",
+		"start": { "year": 2016, "month": 1 },
+		"end": { "year": 2016, "month": 2 },
+		"classes": ["center", "team"],
+		"description": "A site to raise awareness of Sen. Bernie Sanders's views and policies in the 2016 presidential election. <b>1.5+ million views!</b>",
+		"dialogId": "dialogILikeBernieBut",
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
+	},{
+		"name": "synthi-js",
+		"category": "fun",
+		"start": { "year": 2015, "month": 12 },
+		"end": { "year": 2016, "month": 2 },
+		"classes": ["center", "solo", "inprogress"],
+		"description": "A JavaScript emulator of the legendary SYNTHI A synthesizer. <span class='wip'>Currently a work-in-progress. Check it out <a href='https://github.com/AlexNisnevich/synthi-js'>on GitHub</a>.</span>"
+	},{
+		"name": "Asshole Transit Bureaucrat 2015",
+		"category": "games",
+		"start": { "year": 2015, "month": 7 },
+		"end": { "year": 2015, "month": 7 },
+		"classes": ["centerLeft", "team"],
+		"description": "My team's entry into Ludum Dare #33. A semi-finished transit puzzle game.",
+		"dialogId": "dialogATB2015",
+		"dialogDimensions": [430, "auto"]
+	},{
 		"name": "aucoder",
 		"category": "fun",
 		"start": { "year": 2015, "month": 4 },

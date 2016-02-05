@@ -1,4 +1,4 @@
-var latestDate = {'year': 2015, 'month': 6};
+var latestDate = {'year': 2016, 'month': 2};
 var earliestDate = {'year': 2011, 'month': 1};
 
 function dateToHeight(year, month) {
@@ -141,9 +141,9 @@ $(document).ready(function() {
 		addYear(i);
 	}
 
-	addSideText('Solo Projects', 2013, 8.5, 'legend green');
-	addSideText('Team Projects', 2013, 7, 'legend blue');
-	addSideText('Corporate / Research Projects', 2013, 5.5, 'legend red');
+	addSideText('Solo Projects', 2014, 8.5, 'legend green');
+	addSideText('Team Projects', 2014, 7, 'legend blue');
+	addSideText('Corporate / Research Projects', 2014, 5.5, 'legend red');
 
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {
