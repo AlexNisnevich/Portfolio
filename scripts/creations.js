@@ -1,10 +1,20 @@
 var creations = [
 	{
+		"name": "montague",
+		"category": "tools",
+		"start": { "year": 2015, "month": 9 },
+		"end": { "year": 2016, "month": 4 },
+		"classes": ["right", "company"],
+		"description": "A simple CCG semantic parsing library for Scala.",
+		"dialogId": "dialogMontague",
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
+	},{
 		"name": "ilikeberniebut.com",
 		"category": "tools",
 		"start": { "year": 2016, "month": 1 },
 		"end": { "year": 2016, "month": 2 },
-		"classes": ["center", "team"],
+		"classes": ["left", "team"],
 		"description": "A site to raise awareness of Sen. Bernie Sanders's views and policies in the 2016 presidential election. <b>1.5+ million views!</b>",
 		"dialogId": "dialogILikeBernieBut",
 		"dialogDimensions": [530, "auto"],
