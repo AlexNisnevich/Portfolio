@@ -23,9 +23,12 @@ var creations = [
 		"name": "synthi-js",
 		"category": "fun",
 		"start": { "year": 2015, "month": 12 },
-		"end": { "year": 2016, "month": 2 },
-		"classes": ["center", "solo", "inprogress"],
-		"description": "A JavaScript emulator of the legendary SYNTHI A synthesizer. <span class='wip'>Currently a work-in-progress. Check it out <a href='https://github.com/AlexNisnevich/synthi-js'>on GitHub</a>.</span>"
+		"end": { "year": 2016, "month": 6 },
+		"classes": ["center", "solo"],
+		"description": "A JavaScript emulator of the legendary SYNTHI A synthesizer.",
+		"dialogId": "dialogSynthiJs",
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
 	},{
 		"name": "Asshole Transit Bureaucrat 2015",
 		"category": "games",
