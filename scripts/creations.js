@@ -23,7 +23,7 @@ var creations = [
 		"name": "synthi-js",
 		"category": "fun",
 		"start": { "year": 2015, "month": 12 },
-		"end": { "year": 2016, "month": 6 },
+		"end": { "year": 2016, "month": 7 },
 		"classes": ["center", "solo"],
 		"description": "A JavaScript emulator of the legendary SYNTHI A synthesizer.",
 		"dialogId": "dialogSynthiJs",
