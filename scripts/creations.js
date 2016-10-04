@@ -7,8 +7,7 @@ var creations = [
 		"classes": ["left", "company"],
 		"description": "A police use-of-force reporting tool, originally developed for <a href='http://ursusdemo.doj.ca.gov/'>California</a>.",
 		"dialogId": "dialogBridgeUOF",
-		"dialogDimensions": [600, 500],
-		"favorite": true
+		"dialogDimensions": [600, 500]
 	},{
 		"name": "montague",
 		"category": "tools",
@@ -216,7 +215,7 @@ var creations = [
 		"description": "My entry into Ludum Dare #22. Help an emulated brain recover its memories.",
 		"dialogId": "dialogNotASoul",
 		"dialogDimensions": [600, "auto"]
-	},{
+	},/*{  // Commenting out Gromunity as the site no longer works, and debugging it isn't worth it.
 		"name": "Gromunity",
 		"category": "tools",
 		"start": { "year": 2011, "month": 9 },
@@ -225,7 +224,7 @@ var creations = [
 		"description": "A prototype of an online community for urban gardeners, built for the inaugural CleanWeb Hackathon.",
 		"dialogId": "dialogGromunity",
 		"dialogDimensions": [500, "auto"]
-	},{
+	},*/{
 		"name": "pluralizer",
 		"category": "tools",
 		"start": { "year": 2011, "month": 8 },
