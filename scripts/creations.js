@@ -1,5 +1,15 @@
 var creations = [
 	{
+		"name": "Bridge-UOF",
+		"category": "tools",
+		"start": { "year": 2016, "month": 4 },
+		"end": { "year": 2016, "month": 9 },
+		"classes": ["left", "company"],
+		"description": "A police use-of-force reporting tool, originally developed for <a href='http://ursusdemo.doj.ca.gov/'>California</a>.",
+		"dialogId": "dialogBridgeUOF",
+		"dialogDimensions": [600, 500],
+		"favorite": true
+	},{
 		"name": "montague",
 		"category": "tools",
 		"start": { "year": 2015, "month": 9 },
@@ -34,7 +44,7 @@ var creations = [
 		"category": "games",
 		"start": { "year": 2015, "month": 7 },
 		"end": { "year": 2015, "month": 7 },
-		"classes": ["centerLeft", "team"],
+		"classes": ["center", "team"],
 		"description": "My team's entry into Ludum Dare #33. A semi-finished transit puzzle game.",
 		"dialogId": "dialogATB2015",
 		"dialogDimensions": [430, "auto"]
@@ -55,20 +65,12 @@ var creations = [
 		"dialogId": "dialogSplooshed",
 		"dialogDimensions": [530, "auto"]
 	},
-	/*{
-		"name": "montague",
-		"category": "tools",
-		"start": { "year": 2014, "month": 12 },
-		"end": { "year": 2015, "month": 1 },
-		"classes": ["center", "company", "inprogress"],
-		"description": "TODO"
-	},*/
 	{
 		"name": "Kalevala",
 		"category": "games",
 		"start": { "year": 2014, "month": 11 },
 		"end": { "year": 2015, "month": 5 },
-		"classes": ["center", "team"],
+		"classes": ["centerLeft", "team"],
 		"description": "A tile-placing board game in Elm; an experiment in functional reactive programming.",
 		"dialogId": "dialogKalevala"
 	},{
