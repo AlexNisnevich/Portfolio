@@ -1,5 +1,23 @@
 var creations = [
 	{
+		"name": "Wordbots",
+		"category": "games",
+		"start": { "year": 2016, "month": 10 },
+		"end": { "year": 2017, "month": 4 },
+		"classes": ["center", "team", "inprogress"],
+		"description": "A customizable card game where players can create their own cards. <span class='wip'>Currently a work-in-progress. Check out our progress <a href='http://git.wordbots.io'>on GitHub</a>.</span>",
+		"dialogId": "dialogWordbots",
+		"dialogDimensions": [600, "auto"]
+	},{
+		"name": "WeatherGrains",
+		"category": "fun",
+		"start": { "year": 2016, "month": 8 },
+		"end": { "year": 2016, "month": 9 },
+		"classes": ["left", "team"],
+		"description": "A granular synthesizer that generates music based on weather at different points on the globe.",
+		"dialogId": "dialogWeatherGrains",
+		"dialogDimensions": [450, "auto"]
+	},{
 		"name": "Bridge-UOF",
 		"category": "tools",
 		"start": { "year": 2016, "month": 4 },
@@ -24,7 +42,7 @@ var creations = [
 		"start": { "year": 2016, "month": 1 },
 		"end": { "year": 2016, "month": 2 },
 		"classes": ["left", "team"],
-		"description": "A site to raise awareness of Sen. Bernie Sanders's views and policies in the 2016 presidential election. <b>1.5+ million views!</b>",
+		"description": "A site to raise awareness of Sen. Bernie Sanders's views and policies in the 2016 presidential election. <br><b>1.5 million views!</b>",
 		"dialogId": "dialogILikeBernieBut",
 		"dialogDimensions": [530, "auto"],
 		"favorite": true
@@ -33,7 +51,7 @@ var creations = [
 		"category": "fun",
 		"start": { "year": 2015, "month": 12 },
 		"end": { "year": 2016, "month": 7 },
-		"classes": ["center", "solo"],
+		"classes": ["right", "solo"],
 		"description": "A JavaScript emulator of the legendary SYNTHI A synthesizer.",
 		"dialogId": "dialogSynthiJs",
 		"dialogDimensions": [530, "auto"],
@@ -47,14 +65,14 @@ var creations = [
 		"description": "My team's entry into Ludum Dare #33. A semi-finished transit puzzle game.",
 		"dialogId": "dialogATB2015",
 		"dialogDimensions": [430, "auto"]
-	},{
+	},/*{
 		"name": "aucoder",
 		"category": "fun",
 		"start": { "year": 2015, "month": 4 },
 		"end": { "year": 2015, "month": 4 },
 		"classes": ["center", "team", "inprogress"],
 		"description": "A Python utility to 'cover' a song using only clips from another song. <span class='wip'>Currently a work-in-progress. Check it out <a href='https://github.com/turian/aucoder'>on GitHub</a>.</span>"
-	},{
+	},*/{
 		"name": "Splooshed",
 		"category": "tools",
 		"start": { "year": 2015, "month": 4 },
@@ -63,8 +81,7 @@ var creations = [
 		"description": "A browser extension and API to track agricultural water usage of recipes, built for LA Hacks.",
 		"dialogId": "dialogSplooshed",
 		"dialogDimensions": [530, "auto"]
-	},
-	{
+	},{
 		"name": "Kalevala",
 		"category": "games",
 		"start": { "year": 2014, "month": 11 },
@@ -117,7 +134,7 @@ var creations = [
 		"start": { "year": 2013, "month": 3 },
 		"end": { "year": 2014, "month": 4 },
 		"classes": ["left", "team"],
-		"description": "A meta-JavaScript adventure game, in which players must modify the game's code to complete puzzles.",
+		"description": "A meta-JavaScript adventure game, in which players must modify the game's code to complete puzzles. <br><b>1 million views!</b>",
 		"dialogId": "dialogUntrusted",
 		"favorite": true
 	},{
