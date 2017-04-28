@@ -202,6 +202,7 @@ body.noScrollY {
 
 .point.inprogress {
 	border-style: dashed;
+	cursor: auto;
 }
 
 .point.inprogress .callout {
