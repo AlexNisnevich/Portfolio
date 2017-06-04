@@ -1,18 +1,11 @@
-@font-face {
-  font-family: 'Montez';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Montez'), local('Montez-Regular'), url(http://themes.googleusercontent.com/static/fonts/montez/v3/Zfcl-OLECD6-4EcdWMp-Tw.woff) format('woff');
-}
-
 /*
  * Container
  */
 
 body {
-	color: #ccc;
-	background-color: #333;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #444444;
+	background-color: #eeeeee;
+	font-family: 'Roboto', sans-serif;
 	width: 100%;
 }
 
@@ -26,7 +19,7 @@ body.noScrollY {
 
 #container {
 	width: 930px;
-	margin: 20px auto 0;
+	margin: 0 auto;
 }
 
 /*
@@ -37,7 +30,7 @@ body.noScrollY {
 	width: 100%;
 	padding: 4px;
 	margin-bottom: 15px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: right;
 }
 
@@ -73,7 +66,7 @@ body.noScrollY {
 	position: absolute;
 	width: 100px;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
 	font-size: 1.5em;
 	color: #444;
@@ -86,7 +79,7 @@ body.noScrollY {
 
 #years div.link {
 	width: 500px;
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-size: 0.7em;
 	color: #fff;
@@ -102,21 +95,23 @@ body.noScrollY {
 }
 
 #years div.legend {
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
 	width: 500px;
 	font-size: 0.8em;
 	color: #fff;
 }
 
 #years div.legend.green {
-	color: #6f6;
+	color: #4caf50;
 }
 
 #years div.legend.blue {
-	color: #66f;
+	color: #2196f3;
 }
 
 #years div.legend.red {
-	color: #f66;
+	color: #ef5350;
 }
 
 /*
@@ -174,7 +169,7 @@ body.noScrollY {
 	-webkit-border-radius: 40px;
 	-khtml-border-radius: 40px;
 	border-radius: 40px;
-	behavior:url(border-radius.htc);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .point.left {
@@ -186,18 +181,15 @@ body.noScrollY {
 }
 
 .point.solo {
-	background: #9f9;
-	border: 1px solid #040;
+	background: #81c784;
 }
 
 .point.team {
-	background: #99f;
-	border: 1px solid #008;
+	background: #64b5f6;
 }
 
 .point.company {
-	background: #f99;
-	border: 1px solid #800;
+	background: #ef9a9a;
 }
 
 .point.inprogress {
@@ -235,6 +227,7 @@ body.noScrollY {
 	padding: 8px;
 	margin-top: -3px;
 	border-width: 2px;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .point.hover .caption {
@@ -247,12 +240,11 @@ body.noScrollY {
  */
 
 .callout {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-khtml-border-radius: 5px;
-	border-radius: 5px;
-	border: 1px solid #ddd;
-	background: #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	background: #bdbdbd;
 	padding: 10px;
 	display: block;
 	position: absolute;
@@ -260,6 +252,7 @@ body.noScrollY {
 	z-index: 1;
 	font-size: 0.8em;
 	color: #333;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .callout .name {
@@ -299,7 +292,7 @@ body.noScrollY {
 
 .calloutRight:after {
 	left: -9px;
-	border-right: 10px solid #999;
+	border-right: 10px solid #bdbdbd;
 }
 
 .calloutLeft {
@@ -314,7 +307,7 @@ body.noScrollY {
 
 .calloutLeft:after, .calloutLeft:after {
 	right: -9px;
-	border-left: 10px solid #999;
+	border-left: 10px solid #bdbdbd;
 }
 
 /*
@@ -323,16 +316,16 @@ body.noScrollY {
 
 .point.left .star, .point.centerLeft .star {
 	margin-right: 1em;
+	text-shadow: 2px 2px 2px #CCC;
 }
 
 .point.right .star, .point.center .star {
 	margin-left: 1em;
+	text-shadow: 2px 2px 2px #CCC;
 }
 
-.star img {
-	width: 16px;
-	height: 16px;
-	margin-bottom: 2px;
+.star {
+	color: #fdd835;
 }
 
 /*
@@ -379,4 +372,13 @@ body.noScrollY {
 
 #dialogUntrusted a:hover pre {
 	font-weight: bold;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
