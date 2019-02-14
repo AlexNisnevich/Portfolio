@@ -3,7 +3,7 @@ var creations = [
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2017, "month": 4 },
+		"end": { "year": 2019, "month": 2 },
 		"classes": ["center", "team", "inprogress"],
 		"description": "A customizable card game where players can create their own cards. <span class='wip'>Currently a work-in-progress. Check out our progress <a href='http://git.wordbots.io'>on GitHub</a>.</span>",
 		"dialogId": "dialogWordbots",

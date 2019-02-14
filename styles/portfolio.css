@@ -25,7 +25,7 @@ body.noScrollY {
 }
 
 #container {
-	width: 930px;
+	width: 1050px;
 	margin: 20px auto 0;
 }
 
@@ -119,6 +119,10 @@ body.noScrollY {
 	color: #f66;
 }
 
+#years div.legend.gray {
+	color: #ddd;
+}
+
 /*
  * Footer
  */
@@ -139,7 +143,7 @@ body.noScrollY {
 
 #portfolio {
 	float: left;
-	width: 780px;
+	width: 900px;
 	margin-bottom: 1.25em;
 }
 
@@ -150,13 +154,19 @@ body.noScrollY {
 	position: relative;
 }
 
-.column .title {
-}
-
 .line {
 	margin-top: 15px;
 	width: 130px;
 	border-right: 1px solid #999;
+}
+
+.column#colBlogposts {
+	width: 100px;
+}
+
+.column#colBlogposts .line {
+	width: 50px;
+	border-right-style: dotted;
 }
 
 /*
@@ -200,6 +210,12 @@ body.noScrollY {
 	border: 1px solid #800;
 }
 
+.point.blogpost {
+	background: #ddd;
+	border: 1px solid #888;
+	left: 44px;
+}
+
 .point.inprogress {
 	border-style: dashed;
 	cursor: auto;
@@ -231,10 +247,14 @@ body.noScrollY {
  */
 
 .point.hover {
-	left: 122px;
+	left: 120px;
 	padding: 8px;
 	margin-top: -3px;
 	border-width: 2px;
+}
+
+.point.blogpost.hover {
+	left: 40px;
 }
 
 .point.hover .caption {
