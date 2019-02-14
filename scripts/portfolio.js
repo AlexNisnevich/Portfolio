@@ -14,7 +14,7 @@ var blogPosts = [
 	{year: 2016, month: 7, name: 'Secrets of natural language UIs: Translating English into computer actions', url: 'http://alex.nisnevich.com/blog/2016/07/01/secrets_of_natural_language_uis.html'},
 	{year: 2016, month: 5, name: 'How many closed lambda-calculus terms are there of a given length?', url: 'http://alex.nisnevich.com/blog/2016/05/19/how_many_lambda_terms_are_there.html'},
 	{year: 2016, month: 1, name: 'Reading List - 2015', url: 'https://www.facebook.com/alex.nisnevich/posts/10153269546231828'},
-	{year: 2015, month: 11, name: 'Postmortem - Asshole Transit Bureaucrat 2015', url: 'http://alex.nisnevich.com/blog/2015/10/18/asshole_transit_bureaucrat_postmortem.html'},
+	{year: 2015, month: 10.8, name: 'Postmortem - Asshole Transit Bureaucrat 2015', url: 'http://alex.nisnevich.com/blog/2015/10/18/asshole_transit_bureaucrat_postmortem.html'},
 	{year: 2015, month: 10, name: 'The Impact of Donations to Bernie Sanders', url: 'http://alexnisnevich.github.io/bernie-donations/'},
 	{year: 2015, month: 1, name: 'Reading List - 2014', url: 'https://www.facebook.com/alex.nisnevich/posts/10152535243891828'},
 	{year: 2014, month: 11, name: 'JSON Requests with rust-http', url: 'http://alex.nisnevich.com/blog/2014/10/23/json_requests_with_rust_http.html'},
@@ -179,7 +179,7 @@ $(document).ready(function() {
 			"start": post,
 			"end": post,
 			"classes": ["blogpost", "centerLeft"],
-			"description": '"' + post.name + '"',
+			"description": '"' + post.name + '" [' + Math.floor(post.month) + '.' + post.year + ']',
 			"url": post.url
 		});
 	});

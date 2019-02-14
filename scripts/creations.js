@@ -9,6 +9,14 @@ var creations = [
 		"dialogId": "dialogWordbots",
 		"dialogDimensions": [600, "auto"]
 	},{
+		"name": "Pen Plotter Maps",
+		"category": "fun",
+		"start": { "year": 2018, "month": 8 },
+		"end": { "year": 2018, "month": 9 },
+		"classes": ["centerLeft", "solo"],
+		"description": "A technique for creating land-use maps with an HP 7475A pen plotter. Check out <a href='http://alex.nisnevich.com/blog/2018/09/15/plotting_land_use_maps.html'>my post describing it</a>.",
+		"url": "http://alex.nisnevich.com/blog/2018/09/15/plotting_land_use_maps.html"
+	},{
 		"name": "WeatherGrains",
 		"category": "fun",
 		"start": { "year": 2016, "month": 8 },
