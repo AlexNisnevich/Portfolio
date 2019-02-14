@@ -166,7 +166,7 @@ body.noScrollY {
 
 .column#colBlogposts .line {
 	width: 50px;
-	border-right-style: dotted;
+	border-right-color: #555;
 }
 
 /*

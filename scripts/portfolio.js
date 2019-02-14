@@ -191,9 +191,10 @@ $(document).ready(function() {
 		addYear(i);
 	}
 
-	addSideText('Solo Projects', 2018, 8.5, 'legend green');
-	addSideText('Team Projects', 2018, 7, 'legend blue');
-	addSideText('Company / Research Projects', 2018, 5.5, 'legend red');
+	addSideText('Solo projects', 2018, 8.5, 'legend green');
+	addSideText('Team projects', 2018, 7, 'legend blue');
+	addSideText('Company / research projects', 2018, 5.5, 'legend red');
+	addSideText('Blog posts', 2018, 4, 'legend gray');
 
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {
