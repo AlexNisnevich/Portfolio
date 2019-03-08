@@ -3,6 +3,7 @@ var earliestDate = {'year': 2011, 'month': 1};
 
 // Created by processing http://alex.nisnevich.com/blog/atom.xml
 var blogPosts = [
+	{year: 2019, month: 2, name: 'Visualizing Classical Music Influence with networkx', url: 'https://nbviewer.jupyter.org/github/AlexNisnevich/blog/blob/master/_notebooks/music-graphs.ipynb'},
 	{year: 2019, month: 1, name: 'Reading List - 2018', url: 'https://www.facebook.com/notes/alex-nisnevich/reading-list-2018/10155545261246685/'},
 	{year: 2018, month: 9, name: 'Creating Land-Use Maps with an HP 7475A Plotter', url: 'http://alex.nisnevich.com/blog/2018/09/15/plotting_land_use_maps.html'},
 	{year: 2018, month: 8, name: 'Gator Album Release', url: 'http://alex.nisnevich.com/blog/2018/08/19/gator_album_release.html'},
