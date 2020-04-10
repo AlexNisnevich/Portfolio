@@ -169,6 +169,11 @@ body.noScrollY {
 	border-right-color: #555;
 }
 
+.title.small {
+	color: #666;
+	font-size: 0.8em;
+}
+
 /*
  * Points
  */

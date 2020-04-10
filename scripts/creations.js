@@ -3,17 +3,27 @@ var creations = [
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2019, "month": 3 },
+		"end": { "year": 2020, "month": 1 },
 		"classes": ["center", "team", "inprogress"],
 		"description": "A customizable card game where players can create their own cards. <span class='wip'>Currently a work-in-progress. Check out our progress <a href='http://git.wordbots.io'>on GitHub</a>.</span>",
 		"dialogId": "dialogWordbots",
 		"dialogDimensions": [600, "auto"]
 	},{
+		"name": "midipi",
+		"category": "fun",
+		"start": { "year": 2019, "month": 3 },
+		"end": { "year": 2019, "month": 4 },
+		"classes": ["left", "solo"],
+		"description": "A Python utility for sending MIDI control messages from a Raspberry Pi with a simple interface, designed for 'extended technique' on a Korg SV-1 keyboard.",
+		"url": "https://gist.github.com/AlexNisnevich/00f451118550035b780995caa2733f92",
+		"dialogId": "dialogMidiPi",
+		"dialogDimensions": [450, "auto"]
+	},{
 		"name": "Who Taught Whom?",
 		"category": "fun",
-		"start": { "year": 2019, "month": 2 },
+		"start": { "year": 2019, "month": 1 },
 		"end": { "year": 2019, "month": 2 },
-		"classes": ["center", "solo"],
+		"classes": ["right", "solo"],
 		"description": "A visualization of classical music influence, created by scraping and processing Wikipedia data.",
 		"dialogId": "dialogWhoTaughtWhom",
 		"dialogDimensions": [450, "auto"]
