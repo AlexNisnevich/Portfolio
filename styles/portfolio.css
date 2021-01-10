@@ -2,7 +2,7 @@
   font-family: 'Montez';
   font-style: normal;
   font-weight: 400;
-  src: local('Montez'), local('Montez-Regular'), url(http://themes.googleusercontent.com/static/fonts/montez/v3/Zfcl-OLECD6-4EcdWMp-Tw.woff) format('woff');
+  src: local('Montez'), local('Montez-Regular'), url(https://themes.googleusercontent.com/static/fonts/montez/v3/Zfcl-OLECD6-4EcdWMp-Tw.woff) format('woff');
 }
 
 /*
@@ -13,6 +13,7 @@ body {
 	color: #ccc;
 	background-color: #333;
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
 	width: 100%;
 }
 
@@ -172,6 +173,15 @@ body.noScrollY {
 .title.small {
 	color: #666;
 	font-size: 0.8em;
+}
+
+.title a {
+	color: inherit;
+}
+
+.title a:hover {
+	color: #ccc;
+	text-decoration: none;
 }
 
 /*

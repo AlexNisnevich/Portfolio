@@ -70,7 +70,7 @@ var papers = [
 		month: 5,
 		title: 'Probabilistically modeling semantic change',
 		authors: 'Aleksandr Nisnevich, David Hall, Dan Klein',
-		pub: 'University of California, Berkeley, Technical Report No. UCB/EECS-2015-36',
+		pub: 'Master\'s thesis, University of California, Berkeley',
 		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=14928730421896491501'
 	}
 ]
@@ -242,10 +242,10 @@ $(document).ready(function() {
 		addYear(i);
 	}
 
-	addSideText('Solo projects', 2018, 8.5, 'legend green');
-	addSideText('Team projects', 2018, 7, 'legend blue');
-	addSideText('Company / research projects', 2018, 5.5, 'legend red');
-	addSideText('Papers / blog posts', 2018, 4, 'legend gray');
+	addSideText('Solo projects', 2019, 8.5, 'legend green');
+	addSideText('Team projects', 2019, 7, 'legend blue');
+	addSideText('Company / research projects', 2019, 5.5, 'legend red');
+	addSideText('Papers / blog posts', 2019, 4, 'legend gray');
 
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {
