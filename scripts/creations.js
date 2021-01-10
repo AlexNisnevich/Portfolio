@@ -15,9 +15,8 @@ var creations = [
 		"end": { "year": 2019, "month": 4 },
 		"classes": ["left", "solo"],
 		"description": "A Python utility for sending MIDI control messages from a Raspberry Pi with a simple interface, designed for 'extended technique' on a Korg SV-1 keyboard.",
-		"url": "https://gist.github.com/AlexNisnevich/00f451118550035b780995caa2733f92",
 		"dialogId": "dialogMidiPi",
-		"dialogDimensions": [450, "auto"]
+		"dialogDimensions": [500, 500]
 	},{
 		"name": "Who Taught Whom?",
 		"category": "fun",
