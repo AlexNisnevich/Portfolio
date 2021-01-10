@@ -1,8 +1,9 @@
-var latestDate = {'year': 2020, 'month': 4};
+var latestDate = {'year': 2021, 'month': 1};
 var earliestDate = {'year': 2011, 'month': 1};
 
 // Created by processing http://alex.nisnevich.com/blog/atom.xml
 var blogPosts = [
+	{year: 2021, month: 1, name: 'Reading List - 2020', url: 'https://www.facebook.com/alex.nisnevich/posts/10157848567891828'},
 	{year: 2020, month: 4, name: 'Migrating a ASP.NET Application from SQL Server to MySQL', url: 'https://alex.nisnevich.com/blog/2020/04/18/migrating_asp_net_mysql.html'},
 	{year: 2020, month: 1, name: 'Reading List - 2019', url: 'https://www.facebook.com/notes/alex-nisnevich/reading-list-2019/10156322275831685/'},
 	{year: 2019, month: 2, name: 'Visualizing Classical Music Influence with networkx', url: 'https://nbviewer.jupyter.org/github/AlexNisnevich/blog/blob/master/_notebooks/music-graphs.ipynb'},
@@ -37,6 +38,41 @@ var blogPosts = [
 	{year: 2012, month: 7.5, name: 'Dynamic Pluralization with PHP and jQuery', url: 'http://alex.nisnevich.com/blog/2012/07/30/dynamic_pluralization.html'},
 	{year: 2012, month: 7, name: 'Refreshing Browsers over SSH', url: 'http://alex.nisnevich.com/blog/2012/07/25/browsers_and_ssh.html'},
 	{year: 2012, month: 6.5, name: 'About this blog', url: 'http://alex.nisnevich.com/blog/2012/07/13/welcome.html'}
+]
+
+var papers = [
+	{
+		year: 2020,
+		month: 9,
+		title: 'Task-oriented dialogue as dataflow synthesis',
+		authors: 'Jacob Andreas, John Bufe, David Burkett, Charles Chen, Josh Clausman, Jean Crawford, Kate Crim, Jordan DeLoach, Leah Dorner, Jason Eisner, Hao Fang, Alan Guo, David Hall, Kristin Hayes, Kellie Hill, Diana Ho, Wendy Iwaszuk, Smriti Jha, Dan Klein, Jayant Krishnamurthy, Theo Lanman, Percy Liang, Christopher H. Lin, Ilya Lintsbakh, Andy McGovern, Aleksandr Nisnevich, Adam Pauls, Dmitrij Petters, Brent Read, Dan Roth, Subhro Roy, Jesse Rusak, Beth Short, Div Slomin, Ben Snyder, Stephon Striplin, Yu Su, Zachary Tellman, Sam Thomson, Andrei Vorobev, Izabela Witoszko, Jason Wolfe, Abby Wray, Yuchen Zhang, Alexander Zotov',
+		pub: 'Transactions of the Association for Computational Linguistics 2020 Vol. 8, 556-571',
+		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=8490352103295945601'
+	},
+	{
+		year: 2020,
+		month: 4,
+		title: 'Experience grounds language',
+		authors: 'Yonatan Bisk, Ari Holtzman, Jesse Thomason, Jacob Andreas, Yoshua Bengio, Joyce Chai, Mirella Lapata, Angeliki Lazaridou, Jonathan May, Aleksandr Nisnevich, Nicolas Pinto, Joseph Turian',
+		pub: 'arXiv preprint arXiv:2004.10151',
+		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=3734668471751920487'
+	},
+	{
+		year: 2017,
+		month: 7,
+		title: 'Predicting all-cause risk of 30-day hospital readmission using artificial neural networks',
+		authors: 'Mehdi Jamei, Aleksandr Nisnevich, Everett Wetchler, Sylvia Sudat, Eric Liu, Kirtan Upadhyaya',
+		pub: 'PLoS ONE 12(7): e0181173',
+		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=17107633796071741739'
+	},
+	{
+		year: 2015,
+		month: 5,
+		title: 'Probabilistically modeling semantic change',
+		authors: 'Aleksandr Nisnevich, David Hall, Dan Klein',
+		pub: 'University of California, Berkeley, Technical Report No. UCB/EECS-2015-36',
+		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=14928730421896491501'
+	}
 ]
 
 function dateToHeight(year, month) {
@@ -187,6 +223,18 @@ $(document).ready(function() {
 		});
 	});
 
+	papers.forEach(function (paper) {
+		addItem({
+			"name": "",
+			"category": "papers",
+			"start": paper,
+			"end": paper,
+			"classes": ["paper", "centerLeft"],
+			"description": '<i>' + paper.title + '</i><br>' + paper.authors + '<br><b>' + paper.pub + '</b>',
+			"url": paper.url
+		});
+	});
+
 	var totalHeight = dateToHeight(earliestDate.year, earliestDate.month) - dateToHeight(latestDate.year, latestDate.month) + 100;
 	$('.line').css('height', totalHeight)
 
@@ -197,7 +245,7 @@ $(document).ready(function() {
 	addSideText('Solo projects', 2018, 8.5, 'legend green');
 	addSideText('Team projects', 2018, 7, 'legend blue');
 	addSideText('Company / research projects', 2018, 5.5, 'legend red');
-	addSideText('Blog posts', 2018, 4, 'legend gray');
+	addSideText('Papers / blog posts', 2018, 4, 'legend gray');
 
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {
