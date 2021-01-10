@@ -7,7 +7,8 @@ var creations = [
 		"classes": ["center", "team", "inprogress"],
 		"description": "A customizable card game where players can create their own cards. <span class='wip'>Currently a work-in-progress. Check out our progress <a href='http://git.wordbots.io'>on GitHub</a>.</span>",
 		"dialogId": "dialogWordbots",
-		"dialogDimensions": [600, "auto"]
+		"dialogDimensions": [600, "auto"],
+		"url": "http://git.wordbots.io"
 	},{
 		"name": "midipi",
 		"category": "fun",
@@ -133,7 +134,8 @@ var creations = [
 		"classes": ["right", "team"],
 		"description": "My team's entry into Ludum Dare #29. A game about automated asteroid mining.",
 		"dialogId": "dialogAsteroidTycoon",
-		"dialogDimensions": [530, "auto"]
+		"dialogDimensions": [530, "auto"],
+		"favorite": true
 	},{
 		"name": "10 Second Roguelike",
 		"category": "games",
