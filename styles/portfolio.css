@@ -72,7 +72,6 @@ body.noScrollY {
 
 #years div {
 	position: absolute;
-	width: 100px;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -103,7 +102,6 @@ body.noScrollY {
 }
 
 #years div.legend {
-	width: 500px;
 	font-size: 0.8em;
 	color: #fff;
 }
@@ -231,14 +229,18 @@ body.noScrollY {
 	left: 31.5px;
 }
 
-.point.inprogress {
-	border-style: dashed;
-	cursor: auto;
+/* https://css-tricks.com/stripes-css/ */
+.point.team.inprogress, .legend.blue.inprogress {
+	background: repeating-linear-gradient(
+		45deg,
+		#99f,
+		#99f 5px,
+		rgb(188, 188, 255) 5px,
+		rgb(188, 188, 255) 10px
+	);
 }
 
-.point.inprogress .callout {
-	cursor: auto;
-}
+/** TODO do the same for .point.solo.inprogress and .point.company.inprogress */
 
 /*
  * Captions
@@ -275,6 +277,49 @@ body.noScrollY {
 .point.hover .caption {
 	margin: 3px;
 	font-weight: bold;
+}
+
+/*
+ * Interval (super-point with points inside) handling
+ */
+
+.point.superPoint {
+	left: 128px;
+	padding: 2px;
+}
+
+.point.superPoint.hover {
+	left: 129px;
+	padding: 2px;
+	margin-top: 0;
+	border-width: 0;
+}
+
+.point.superPoint .point {
+	left: -4px;
+	border-top-width: 0 !important;
+	border-bottom-width: 0 !important;
+}
+
+/** this assumes intervals are sorted top-to-bottom */
+.point.superPoint .point:first-of-type {
+	border-top-width: 1px !important;
+}
+.point.superPoint.hover .point:first-of-type {
+	border-top-width: 2px !important;
+}
+.point.superPoint .point:last-of-type {
+	border-bottom-width: 1px !important;
+}
+.point.superPoint.hover .point:last-of-type {
+	border-bottom-width: 2px !important;
+}
+
+.point.superPoint.hover .point {
+	left: -8px;
+	padding: 8px;
+	margin-top: -3px;
+	border-width: 2px;
 }
 
 /*

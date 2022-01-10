@@ -1,14 +1,33 @@
 var creations = [
 	{
+		"name": "Bartender's Manual",
+		"category": "tools",
+		"start": { "year": 2021, "month": 2 },
+		"end": { "year": 2022, "month": 1 },
+		"classes": ["center", "team", "inprogress"],
+		"description": "A cocktail database and bar manager that suggests cocktails to prepare based on the contents of your bar.",
+		"dialogId": "dialogBartendersManual",
+		"dialogDimensions": [600, "auto"]
+	},{
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2021, "month": 1 },
+		"end": { "year": 2022, "month": 1 },
+		"intervals": [
+			{
+				"start": { "year": 2020, "month": 11 },
+				"end": { "year": 2022, "month": 1 },
+			},
+			{
+				"start": { "year": 2016, "month": 10 },
+				"end": { "year": 2019, "month": 10 },
+			},
+		],
 		"classes": ["center", "team", "inprogress"],
-		"description": "A customizable card game where players can create their own cards. <span class='wip'>Currently a work-in-progress. Check out our progress <a href='http://git.wordbots.io'>on GitHub</a>.</span>",
+		"captionOffset": -450,
+		"description": "A customizable card game where players can create their own cards.",
 		"dialogId": "dialogWordbots",
-		"dialogDimensions": [600, "auto"],
-		"url": "http://git.wordbots.io"
+		"dialogDimensions": [800, 800]
 	},{
 		"name": "midipi",
 		"category": "fun",
