@@ -1,6 +1,8 @@
 
 // Originally created by processing http://alex.nisnevich.com/blog/atom.xml
 var blogPosts = [
+	{year: 2022, month: 12, name: 'Extra! Extra! – «Never Been to a Party» Album Release', url: 'https://alex.nisnevich.com/blog/2022/12/19/extra_extra_never_been_to_a_party_release.html'},
+	{year: 2022, month: 1, name: 'Reading List - 2021', url: 'https://alex.nisnevich.com/blog/2022/01/10/reading_list_2021.html'},
 	{year: 2021, month: 1, name: 'Reading List - 2020', url: 'https://www.facebook.com/alex.nisnevich/posts/10157848567891828'},
 	{year: 2020, month: 4, name: 'Migrating a ASP.NET Application from SQL Server to MySQL', url: 'https://alex.nisnevich.com/blog/2020/04/18/migrating_asp_net_mysql.html'},
 	{year: 2020, month: 1, name: 'Reading List - 2019', url: 'https://www.facebook.com/notes/alex-nisnevich/reading-list-2019/10156322275831685/'},
@@ -39,6 +41,14 @@ var blogPosts = [
 ]
 
 var papers = [
+	{
+		year: 2022,
+		month: 5,
+		title: 'Guided K-best Selection for Semantic Parsing Annotation',
+		authors: 'Anton Belyy, Chieh-yang Huang, Jacob Andreas, Emmanouil Antonios Platanios, Sam Thomson, Richard Shin, Subhro Roy, Aleksandr Nisnevich, Charles Chen, Benjamin Van Durme',
+		pub: 'Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: System Demonstrations (pp. 114-126).',
+		url: 'https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=15902700200135201793'
+	},
 	{
 		year: 2020,
 		month: 9,

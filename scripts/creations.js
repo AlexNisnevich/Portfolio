@@ -3,7 +3,17 @@ var creations = [
 		"name": "Bartender's Manual",
 		"category": "tools",
 		"start": { "year": 2021, "month": 2 },
-		"end": { "year": 2022, "month": 1 },
+		"end": { "year": 2023, "month": 1 },
+		"intervals": [
+			{
+				"start": { "year": 2022, "month": 11 },
+				"end": { "year": 2023, "month": 1 },
+			},
+			{
+				"start": { "year": 2021, "month": 2 },
+				"end": { "year": 2021, "month": 10 },
+			},
+		],
 		"classes": ["center", "team", "inprogress"],
 		"description": "A cocktail database and bar manager that suggests cocktails to prepare based on the contents of your bar.",
 		"dialogId": "dialogBartendersManual",
@@ -12,11 +22,11 @@ var creations = [
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2022, "month": 1 },
+		"end": { "year": 2023, "month": 1 },
 		"intervals": [
 			{
 				"start": { "year": 2020, "month": 11 },
-				"end": { "year": 2022, "month": 1 },
+				"end": { "year": 2023, "month": 1 },
 			},
 			{
 				"start": { "year": 2016, "month": 10 },
@@ -28,6 +38,14 @@ var creations = [
 		"description": "A customizable card game where players can create their own cards.",
 		"dialogId": "dialogWordbots",
 		"dialogDimensions": [800, 800]
+	},{
+		"name": "Music Portfolio",
+		"category": "fun",
+		"start": { "year": 2020, "month": 4 },
+		"end": { "year": 2020, "month": 4 },
+		"classes": ["center", "solo"],
+		"description": "A simple landing page to organize all of my music (i.e. non-tech) projects.",
+		"url": "alex.nisnevich.com/music"
 	},{
 		"name": "midipi",
 		"category": "fun",
