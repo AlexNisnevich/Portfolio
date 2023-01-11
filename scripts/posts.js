@@ -2,7 +2,7 @@
 // Originally created by processing http://alex.nisnevich.com/blog/atom.xml
 var blogPosts = [
 	{year: 2023, month: 1, name: 'Reading List - 2022', url: 'https://alex.nisnevich.com/blog/2023/01/10/reading_list_2022.html'},
-	{year: 2022, month: 12, name: 'Extra! Extra! – Never Been to a Party Album Release', url: 'https://alex.nisnevich.com/blog/2022/12/19/extra_extra_never_been_to_a_party_release.html'},
+	{year: 2022, month: 12, name: 'Extra! Extra! - Never Been to a Party Album Release', url: 'https://alex.nisnevich.com/blog/2022/12/19/extra_extra_never_been_to_a_party_release.html'},
 	{year: 2022, month: 1, name: 'Reading List - 2021', url: 'https://alex.nisnevich.com/blog/2022/01/10/reading_list_2021.html'},
 	{year: 2021, month: 1, name: 'Reading List - 2020', url: 'https://www.facebook.com/alex.nisnevich/posts/10157848567891828'},
 	{year: 2020, month: 4, name: 'Migrating a ASP.NET Application from SQL Server to MySQL', url: 'https://alex.nisnevich.com/blog/2020/04/18/migrating_asp_net_mysql.html'},
