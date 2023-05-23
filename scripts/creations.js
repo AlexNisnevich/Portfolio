@@ -45,7 +45,8 @@ var creations = [
 		"captionOffset": -450,
 		"description": "A customizable card game where players can create their own cards.",
 		"dialogId": "dialogWordbots",
-		"dialogDimensions": [800, 800]
+		"dialogDimensions": [800, 800],
+		"favorite": true
 	},{
 		"name": "Music Portfolio",
 		"category": "fun",
