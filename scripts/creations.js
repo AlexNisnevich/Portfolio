@@ -6,13 +6,13 @@ var creations = [
 		"end": { "year": 2022, "month": 6 },
 		"classes": ["center", "team"],
 		"description": "A bespoke wedding website.",
-		"url": "alexasali.com"
+		"url": "https://alexasali.com"
 	},{
 		"name": "Bartender's Manual",
 		"category": "tools",
 		"start": { "year": 2021, "month": 2 },
-		"end": { "year": 2023, "month": 1 },
-		"intervals": [
+		"end": { "year": 2021, "month": 10 },
+		"//intervals": [
 			{
 				"start": { "year": 2022, "month": 11 },
 				"end": { "year": 2023, "month": 1 },
@@ -30,18 +30,18 @@ var creations = [
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2023, "month": 1 },
+		"end": { "year": 2023, "month": 4 },
 		"intervals": [
 			{
 				"start": { "year": 2020, "month": 11 },
-				"end": { "year": 2023, "month": 1 },
+				"end": { "year": 2023, "month": 4 },
 			},
 			{
 				"start": { "year": 2016, "month": 10 },
 				"end": { "year": 2019, "month": 10 },
 			},
 		],
-		"classes": ["center", "team", "inprogress"],
+		"classes": ["center", "team"],
 		"captionOffset": -450,
 		"description": "A customizable card game where players can create their own cards.",
 		"dialogId": "dialogWordbots",
