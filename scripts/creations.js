@@ -30,11 +30,11 @@ var creations = [
 		"name": "Wordbots",
 		"category": "games",
 		"start": { "year": 2016, "month": 10 },
-		"end": { "year": 2023, "month": 4 },
+		"end": { "year": 2023, "month": 5 },
 		"intervals": [
 			{
 				"start": { "year": 2020, "month": 11 },
-				"end": { "year": 2023, "month": 4 },
+				"end": { "year": 2023, "month": 5 },
 			},
 			{
 				"start": { "year": 2016, "month": 10 },
