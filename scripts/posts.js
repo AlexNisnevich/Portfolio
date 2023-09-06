@@ -1,6 +1,7 @@
 
 // Originally created by processing http://alex.nisnevich.com/blog/atom.xml
 var blogPosts = [
+	{year: 2023, month: 8, name: '"Lingua o Dialetto?" Exploring Perceptions of Regional Italian Languages Over Time', url: 'https://nbviewer.org/github/AlexNisnevich/lingua-o-dialetto/blob/main/lingua-o-dialetto.ipynb'},
 	{year: 2023, month: 1, name: 'Reading List - 2022', url: 'https://alex.nisnevich.com/blog/2023/01/10/reading_list_2022.html'},
 	{year: 2022, month: 12, name: 'Extra! Extra! - Never Been to a Party Album Release', url: 'https://alex.nisnevich.com/blog/2022/12/19/extra_extra_never_been_to_a_party_release.html'},
 	{year: 2022, month: 1, name: 'Reading List - 2021', url: 'https://alex.nisnevich.com/blog/2022/01/10/reading_list_2021.html'},
