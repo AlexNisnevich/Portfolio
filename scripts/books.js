@@ -796,7 +796,7 @@ const BOOKS = {
     },
     {
       title: "The Dwarf",
-      author: "Pär Lagerkvist (tr. Alexandra Dick)",
+      author: "P&#228;r Lagerkvist (tr. Alexandra Dick)",
       rating: 4,
       thanks: "dad",
       review: `Warring states, brutal betrayals, and a cunning, misanthropic dwarf. Nope, it's not Game of Thrones, but rather Lagerkvist's bleak novella exploring the nature of evil.`,
