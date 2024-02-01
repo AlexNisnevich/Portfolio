@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        /* color: #ccc; */
+        background-color: #333;
+        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        width: 1080px;
+        margin: 20px auto 0;
+      }
+
+      body.noScrollX {
+        overflow-x: hidden;
+      }
+
+      body.noScrollY {
+        overflow-y: hidden;
+      }
+
+      a {
+        color: #ccc;
+        cursor: pointer;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      #header {
+        width: 100%;
+        padding: 4px;
+        margin-bottom: 15px;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: right;
+      }
+
+      #header a {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0 4px;
+        color: white;
+      }
+
+      #header a:hover {
+        background-color: white;
+        color: #333;
+      }
+
+      #header a.secondary_link {
+        margin-left: 15px;
+        color: #444;
+      }
+    </style>
+
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+		<script type="text/javascript" src="../scripts/books.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <a href="/reading" target="_self">AlexNisnevich.reading</a>
+      <a href="/portfolio" target="_self" class="secondary_link">.portfolio</a>
+      <a href="/blog" target="_self" class="secondary_link">.blog</a>
+      <a href="/music" target="_self" class="secondary_link">.music</a>
+      <a href="/cv.pdf" class="secondary_link">.cv</a>
+    </div>
+    <div style="float: right; color: white;">
+      <input type="checkbox" onclick="toggleShowAllReviews();" />
+      <label>Show all reviews</label>
+    </div>
+    <div id="wrapper"></div>
+
+    <script type="text/javascript">
+      let shouldShowAllReviews = false;
+
+      const data = (
+        Object.entries(BOOKS)
+          .flatMap(([year, books]) => books.map((book, idx) => ({
+            ...book,
+            year,
+            id: `${year}-${String(idx).padStart(3, '0')}`
+          })))
+          .reverse()
+      );
+      console.log(data);
+
+      function clearAllReviews() {
+        document.querySelectorAll('.review').forEach(e => e.remove());
+      }
+
+      function clearAllReviewsExcept(ids) {
+        document.querySelectorAll('.review').filter(e => !ids.contains(e.id)).forEach(e => e.remove());
+      }
+
+      function showAllReviews() {
+        clearAllReviews();
+        document.querySelectorAll('.rating').forEach(e => {
+          showReview(e.id.split('_')[1]);
+        });
+      }
+
+      function hasReview(id) {
+        return data.find((book) => (book.id === id)).review;
+      }
+
+      function showReview(id) {
+        const reviewText = data.find((book) => (book.id === id)).review;
+        if (reviewText && !document.querySelector(`#review-${id}`)) {
+          const reviewTr = document.createElement('tr');
+          reviewTr.id = `review-${id}`;
+          reviewTr.className = "review gridjs-tr";
+          reviewTr.innerHTML = `<td class="gridjs-td" colspan="4">${reviewText}</td>`
+
+          const parentElt = document.querySelector(`#rating_${id}`).parentElement.parentElement.parentElement;
+          parentElt.after(reviewTr);
+        }
+      }
+
+      function toggleReview(id) {
+        if (document.querySelector(`#review-${id}`)) {
+          document.querySelector(`#review-${id}`).remove();
+        } else {
+          showReview(id);
+        }
+      }
+
+      function toggleShowAllReviews() {
+        shouldShowAllReviews = !shouldShowAllReviews;
+        if (shouldShowAllReviews) {
+          showAllReviews();
+        } else {
+          clearAllReviews();
+        }
+      }
+
+      const grid = new gridjs.Grid({
+        data,
+        columns: [
+          {
+            id: "id",
+            name: "Year",
+            width: '120px',
+            formatter: (year) => year.split('-')[0]
+          },
+          {
+            id: "title",
+            name: "Title",
+            formatter: (title) => gridjs.html(`<i>${title}</i>`)
+          },
+          {
+            id: "author",
+            name: "Author" ,
+            formatter: (author) => gridjs.html(`<span>${author}</span>`)
+          },
+          {
+            id: "rating",
+            name: "Rating",
+            width: '150px',
+            sort: {
+              compare: (a, b) => {
+                // reverse sort
+                if (a > b) {
+                  return -1;
+                } else if (b > a) {
+                  return 1;
+                } else {
+                  return 0;
+                }
+              }
+            },
+            formatter: (rating, row) => {
+              const id = row.cells[0].data;
+              return gridjs.html(`
+                <div id="rating_${id}" class="rating" onClick="toggleReview('${id}')" >
+                  <div>${'&#9733;'.repeat(rating)}${rating - Math.floor(rating) > 0.45 ? '&#189;' : ''}</div>
+                  ${hasReview(id) ? `<div><a style="font-size: 0.8em">[Show review]</a></div>` : ''}
+                </div>
+              `);
+            }
+          },
+        ],
+        fixedHeader: true,
+        pagination: {
+          limit: 10,
+          summary: true
+        },
+        search: true,
+        sort: true,
+      });
+
+      function tableStatesListener(state, prevState) {
+        //console.log({ state, prevState });
+
+        // TODO use clearAllReviewsExcept() or bring currently shown reviews back
+
+        if (shouldShowAllReviews) {
+          showAllReviews();
+        } else {
+          clearAllReviews();
+        }
+      }
+
+      grid.config.store.subscribe(tableStatesListener);
+
+      grid.render(document.getElementById("wrapper"));
+    </script>
+  </body>
+</html>
