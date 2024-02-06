@@ -223,6 +223,7 @@
 
       grid.render(document.getElementById("wrapper"));
 
+      $('.gridjs-search input').placeholder = 'Search by title or author ...';
       // hacky hack to reset pagination position whenever search updates
       $('.gridjs-search input').addEventListener('keydown', (evt) => {
         const firstPageBtn = $('button[title="pagination.firstPage"]') || $('button[title="Page 1"]');
