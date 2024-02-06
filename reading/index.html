@@ -4,7 +4,8 @@
       body {
         /* color: #ccc; */
         background-color: #333;
-        font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+        /*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+        font-family: 'Average', 'Goudy Bookletter 1911', Georgia, 'Times New Roman', serif;
         width: 1080px;
         margin: 20px auto 0;
       }
@@ -51,6 +52,15 @@
         margin-left: 15px;
         color: #444;
       }
+
+      .gridjs-td {
+        font-size: 1.1em;
+      }
+
+      .review .gridjs-td {
+        line-height: 1.25em;
+        font-size: inherit;
+      }
     </style>
 
     <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
@@ -67,15 +77,18 @@
     </div>
 
     <div style="color: white;">
-      In 2014, I decided to start tracking every book I read. Most years I also wrote short book reviews. Here's my reading list, chronologically ordered backwards:
+      In 2014, I decided to start tracking every book I read. Most years I also write short book reviews. Here's my reading list, chronologically ordered backwards. (Generally, I'll update this list at the end of each year.)
     </div>
-    <div style="float: right; color: white;">
+    <div style="float: right; color: white; position: relative; top: 35px; z-index: 9999;">
       <input type="checkbox" onclick="toggleShowAllReviews();" />
       <label>Show all reviews</label>
     </div>
     <div id="wrapper"></div>
 
     <script type="text/javascript">
+      const $ = document.querySelector.bind(document);
+      const $$ = document.querySelectorAll.bind(document);
+
       let shouldShowAllReviews = false;
 
       const data = (
@@ -90,16 +103,16 @@
       console.log(data);
 
       function clearAllReviews() {
-        document.querySelectorAll('.review').forEach(e => e.remove());
+        $$('.review').forEach(e => e.remove());
       }
 
       function clearAllReviewsExcept(ids) {
-        document.querySelectorAll('.review').filter(e => !ids.contains(e.id)).forEach(e => e.remove());
+        $$('.review').filter(e => !ids.contains(e.id)).forEach(e => e.remove());
       }
 
       function showAllReviews() {
         clearAllReviews();
-        document.querySelectorAll('.rating').forEach(e => {
+        $$('.rating').forEach(e => {
           showReview(e.id.split('_')[1]);
         });
       }
@@ -110,20 +123,20 @@
 
       function showReview(id) {
         const reviewText = data.find((book) => (book.id === id)).review;
-        if (reviewText && !document.querySelector(`#review-${id}`)) {
+        if (reviewText && !$(`#review-${id}`)) {
           const reviewTr = document.createElement('tr');
           reviewTr.id = `review-${id}`;
           reviewTr.className = "review gridjs-tr";
           reviewTr.innerHTML = `<td class="gridjs-td" colspan="4">${reviewText}</td>`
 
-          const parentElt = document.querySelector(`#rating_${id}`).parentElement.parentElement.parentElement;
+          const parentElt = $(`#rating_${id}`).parentElement.parentElement.parentElement;
           parentElt.after(reviewTr);
         }
       }
 
       function toggleReview(id) {
-        if (document.querySelector(`#review-${id}`)) {
-          document.querySelector(`#review-${id}`).remove();
+        if ($(`#review-${id}`)) {
+          $(`#review-${id}`).remove();
         } else {
           showReview(id);
         }
@@ -187,7 +200,8 @@
         fixedHeader: true,
         pagination: {
           limit: 10,
-          summary: true
+          summary: true,
+          resetPageOnUpdate: true
         },
         search: true,
         sort: true,
@@ -208,6 +222,14 @@
       grid.config.store.subscribe(tableStatesListener);
 
       grid.render(document.getElementById("wrapper"));
+
+      // hacky hack to reset pagination position whenever search updates
+      $('.gridjs-search input').addEventListener('keypress', (evt) => {
+        const firstPageBtn = $('button[title="pagination.firstPage"]') || $('button[title="Page 1"]');
+        if (firstPageBtn && !$('.gridjs-summary').title.includes('Page 1')) {
+          firstPageBtn.click();
+        }
+      });
     </script>
   </body>
 </html>
