@@ -76,7 +76,7 @@
       <a href="/cv.pdf" class="secondary_link">.cv</a>
     </div>
 
-    <div style="color: white;">
+    <div style="color: white; padding: 0 10px;">
       In 2014, I decided to start tracking every book I read. Most years I also write short book reviews. Here's my reading list, chronologically ordered backwards. (Generally, I'll update this list at the end of each year.)
     </div>
     <div style="float: right; color: white; position: relative; top: 35px; z-index: 9999;">
@@ -199,7 +199,7 @@
         ],
         fixedHeader: true,
         pagination: {
-          limit: 10,
+          limit: window.screen.height / window.screen.width > 1.5 ? 20 : 10,
           summary: true,
           resetPageOnUpdate: true
         },
@@ -224,7 +224,7 @@
       grid.render(document.getElementById("wrapper"));
 
       // hacky hack to reset pagination position whenever search updates
-      $('.gridjs-search input').addEventListener('keypress', (evt) => {
+      $('.gridjs-search input').addEventListener('keydown', (evt) => {
         const firstPageBtn = $('button[title="pagination.firstPage"]') || $('button[title="Page 1"]');
         if (firstPageBtn && !$('.gridjs-summary').title.includes('Page 1')) {
           firstPageBtn.click();
