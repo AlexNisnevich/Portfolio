@@ -185,11 +185,11 @@ $(document).ready(function() {
 		addYear(i);
 	}
 
-	addSideText('Solo projects', 2020, 8.5, 'legend green');
-	addSideText('Team projects', 2020, 7, 'legend blue');
-	addSideText('Big org projects', 2020, 5.5, 'legend red');
-	addSideText('(In-progress projects)', 2020, 4, 'legend blue inprogress');
-	addSideText('Papers / blog posts', 2020, 2.5, 'legend gray');
+	addSideText('Solo projects', 2022, 8.5, 'legend green');
+	addSideText('Team projects', 2022, 7, 'legend blue');
+	addSideText('Big org projects', 2022, 5.5, 'legend red');
+	addSideText('(In-progress projects)', 2022, 4, 'legend blue inprogress');
+	addSideText('Papers / blog posts', 2022, 2.5, 'legend gray');
 
 	$('.legend').hover(function () {
 		if ($(this).hasClass('green')) {
