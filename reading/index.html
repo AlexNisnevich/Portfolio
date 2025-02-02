@@ -191,7 +191,10 @@
               const id = row.cells[0].data;
               return gridjs.html(`
                 <div id="rating_${id}" class="rating" onClick="toggleReview('${id}')" >
-                  <div>${'&#9733;'.repeat(rating)}${rating - Math.floor(rating) > 0.45 ? '&#189;' : ''}</div>
+                  ${typeof rating === "number" 
+                    ? `<div>${'&#9733;'.repeat(rating)}${rating - Math.floor(rating) > 0.45 ? '&#189;' : ''}</div>`
+                    : `<div>${rating}</div>`
+                  }
                   ${hasReview(id) ? `<div><a style="font-size: 0.8em">[Show review]</a></div>` : ''}
                 </div>
               `);

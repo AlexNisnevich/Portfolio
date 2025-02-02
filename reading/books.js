@@ -1346,6 +1346,123 @@ const BOOKS = {
       review: `About as well-written and nicely laid-out a book as can be made about tropical cocktails and the culture around them. In contrast to Jeff Berry's <i>Sippin' Safari</i>, which is an excellent work of largely primary research but a little confusingly laid out, <i>Smuggler's Cove</i> is a very readable synthesis of existing source materials on the history and theory of tropical cocktails and of the Cates' personal experiences in running an acclaimed tiki bar. The recipes are, of course, top-notch.`
     },
   ],
+  2024: [
+    {
+      title: "Telegraph Avenue",
+      author: "Michael Chabon",
+      rating: 4,
+      review: `What starts as a simple tale of a record store going out of business blossoms into a kaleidoscopic epic that is also a love letter to a very specific micro-region of the Berkeley&#8212;Oakland border, circa 2004. <i>Telegraph Avenue</i> is Chabon's first work set in the Bay Area he lives in, and the attention to detail is so meticulous that I experienced an unexpected bout of nostalgia for a Bay Area past that I came here just a little bit too late to experience. The supporting characters are so vividly written, with such detailed backstories, that at least in one case, I was surprised to find that a specific character was a work of fiction and not an actual obscure jazz musician. And the music &#8212; you can practically hear the music from the pages as Chabon draws on what seems like an encyclopedic knowledge of jazz and funk. Like <i>Kavalier & Clay</i>, the novel continues to escalate to practically fantastical levels until coming back down to reality in a poignant, bittersweet ending that masterfully ties up all loose ends.`,
+    },
+    {
+      title: "Because Internet: Understanding the New Rules of Language",
+      author: "Gretchen McCulloch",
+      rating: 4,
+      review: `It's refreshing to read a perspective on online language use that goes beyond tired clichés (the Internet is destroying our ability to communicate, etc.) and actually addresses what is so interesting about Internet English. McCulloch argues that the Internet provides something new to linguistics: a vast corpus of informal writing that falls closer to spoken language than written language, enabling us to better understand how we communicate with one another in practice. Throughout her examination of Internet English, McCulloch addresses sociolects, typographical tone, memes, and emojis, which she intriguingly argues occupy the same place online that gestures provide in face-to-face conversations.`,
+    },
+    {
+      title: "Poor Things: Episodes from the Early Life of Archibald McCandless M.D., Scottish Public Health Officer",
+      author: "Alasdair Gray",
+      rating: 4.5,
+      review: `Reading <i>Poor Things</i> after watching Lanthimos's film adaptation, I was struck by just how much meatier the novel is &#8212; more defiantly Scottish, more proudly working-class, and also more intriguingly structurally, with a neat metafictional layer of framing narration and contradictory accounts that leave the reader bewildered as to what truly happened in the story. Gray seems to delight in these postmodern conceits, but what elevates this novel above so much other postmodern fiction that I've read lately is that all of Gray's literary conceits are in service of a narrative that, for all of its layers of Gothic grotesqueness and Victorian pastiche and anti-capitalist critique, is rooted in something very fundamentally human: our desperate search for meaning in our lives and in the world.`,
+    },
+    {
+      title: "Red Team Blues",
+      author: "Cory Doctorow",
+      rating: 2,
+      review: `<i>Red Team Blues</i> is an attempt at a detective novel that, unfortunately, has little in the way of the deduction that makes detective fiction interesting. The dialogue is frankly so stilted that it's tough to read at times, the characters are one-dimensional, and the plot seems primarily structured to convey Doctorow's points of view. This was my second attempt to read Doctorow in recent years, and while I agree with Doctorow on the issues he writes about, I can't stand his didactic style, which seems even worse in his fiction than in his nonfiction.`,
+    },
+    {
+      title: "Ladies of the Rachmaninoff Eyes",
+      author: "Henry van Dyck",
+      rating: 4,
+      review: `An absolute gem of a novella. Van Dyck has a masterfully light touch with the prose, and the dialogue is delightfully witty. Van Dyck's style evokes the slightly old-fashioned feeling of a comedy of manners, but at the same time, <i>Ladies of the Rachmaninoff Eyes</i> is surprisingly modern for 1965, daring to show the perspective of a closeted gay Black teen with levity and presenting a setting where racial harmony is so typical as to be unremarkable. It's a delightful comic romp for the first three-quarters, with a powerful dollop of pathos at the end. Kudos to McNally Editions for republishing this out-of-print and forgotten masterpiece.`,
+    },
+    {
+      title: "Kreisleriana",
+      author: "E. T. A. Hoffman (tr. R. Murray Schafer and Max Knight, ed. David Charlton)",
+      rating: 2,
+      review: `Hoffman's character of Johannes Kreisler, the bipolar conductor with such a mystical love of music that he's unable to function in normal society, became a Romantic-era icon, inspiring compositions by Schumann, Brahms, and others. Unfortunately, I didn't find <i>Kreisleriana</i>, a collection of fictional journal entries, mostly music criticism, by the eponymous Kreisler, to be much of an engaging read. The various chapters straddle the bounds of fiction and essay, at times seeming to not differ so much from Hoffman's own voice (after all, Hoffman himself was a notable music critic). Some chapters rise above the rest, particularly "Report of an Educated Young Man" &#8212; a comedic story following the adventures of an educated ape who loves music. But overall, reading <i>Kreisleriana</i> felt like reading the musings of a fictional, very prickly music critic &#8212; an interesting concept, but certainly not for everyone. (Note to self: A better introduction to the character of Kreisler would probably have been Hoffman's later novel <i>Kater Murr</i>, which supposedly has more plot and features a cat).`,
+    },
+    {
+      title: "Austerlitz",
+      author: "W. G. Sebald (tr. Anthea Bell)",
+      rating: 5,
+      review: `Sebald's remarkable writing style sparkles even in translation. Although <i>Austerlitz</i> is ultimately a novel about the Holocaust, Sebald approaches this heavy topic on an intimate scale, as we follow the titular Austerlitz's journey to uncover his identity and his past over decades and across the European continent. <i>Austerlitz</i> is gorgeously written, hard to put down (I ended up reading most of it in a single sitting), and ultimately devastating, with an emotional impact that crept up on me and lasted long after I put down the novel. Also remarkable are the photographs that Sebald intersperses the book with, all archival photographs that he reinterprets to be of and by the fictional Jacques Austerlitz.`,
+    },
+    {
+      title: "The End of Drum-Time",
+      author: "Hanna Pylv&#228;inen",
+      rating: 3.5,
+      review: `Pylv&#228;inen's historical novel of cultural collision between S&#225;mi herders and Nordic settlers in the 1850s is wonderfully written and deftly conjures up the atmosphere of life in the tundras of northern Scandinavia, with fleshed-out characters and evocative landscapes. The portrayal of nineteenth-century S&#225;mi life rings true, and Pylv&#228;inen has done her research, spending extensive time staying with reindeer herders in S&#225;pmi. There's a lot I liked about this novel, and it's a shame that the plot seemed thin and frankly dull at times, with long stretches of minimal exposition and a bewildering ending that I found not at all satisfying. <i>The End of Drum-Time</i> explores a fascinating time and place, and I eagerly picked it up given my interest in far-Northern Indigenous cultures, but ultimately, the novel didn't live up to my expectations.`,
+    },
+    {
+      title: "Why Buildings Fall Down: How Structures Fail (2nd ed.)",
+      author: "Matthys Levy, Mario Salvadori",
+      rating: 2.5,
+      review: `A set of 18 case studies in specific building failures, with a cute story behind it (apparently, when Salvadori showed his mother-in-law his previous book <i>Why Buildings Stand Up</i>, she replied that she'd be more interested in reading about the opposite). As someone who knows nothing about structural engineering, I found it interesting to read the case studies, but the book felt dumbed-down (aside from the appendices, there is no math at all) and disjointed. It felt like I was just presented with a series of disconnected and arbitrarily selected incidents and didn't come out of it with any mental model of what exactly causes building failures to happen.`,
+    },
+    {
+      title: "The Ice Palace",
+      author: "Tarjei Vesaas (tr. Elizabeth Rokkan)",
+      rating: 3,
+      review: `Vesaas has a beautifully lyrical prose style that comes through even in translation from the Nynorsk, and his almost anthropomorphic depiction of the Norwegian landscape is masterful. But the pacing of this novella didn't work for me &#8212; avoiding spoilers, the key action happens close to the beginning, and the rest of the novella follows other characters' reactions to what happened. I can appreciate Vesaas's attempt to explore grief, but I didn't feel I got a good enough view of the main characters for this grief to be plausible.`,
+    },
+    {
+      title: "Weird Black Girls: Stories",
+      author: "Elwin Cotman",
+      rating: 3.5,
+      review: `A collection of off-beat stories, mostly but not entirely in the genre of speculative fiction. Cotman offers a unique and much-needed voice to the genre and shines at melding the mundane with the fantastical in unexpected ways. The one story that departs from this and drops the fantasy entirely, "Triggered," was also my least favorite &#8212; to me, it seemed mean-spirited and tonally odd compared to the rest. I particularly liked "The Switchin' Tree", "Tournament Arc", and the novelette "Weird Black Girls."`,
+    },
+    {
+      title: "Croft and Ceilidh: or Corra-chagailte",
+      author: "Colin MacGilp MacDonald",
+      rating: 4,
+      review: `A collection of reminiscences about Scottish Highland life around the turn of the twentieth century, combining personal history, local folklore of the Ross-shire area, and reflections on the past and future of the Highlands. MacDonald wrote <i>Croft and Ceilidh</i> in the 1940s, at a time when the culture he was writing about had already largely disappeared. There's certainly a tinge of nostalgia throughout the book, but there's more to it than that. MacDonald is interested not just in describing scenes from Highland life but also in exploring what made this way of life possible and the factors that would eventually make it unsustainable. Some sections of the book do seem to stretch the bounds of credulity, though not to the detriment of the whole work &#8212; MacDonald's disarmingly casual, deliberately hokey style makes it hard to tell which of his anecdotes are from his own life, which ones come from stories others have told him, and which ones are perhaps wholly invented.`,
+    },
+    {
+      title: "Cahokia Jazz",
+      author: "Francis Spufford",
+      rating: 4.5,
+      review: `Spufford had already impressed me with <i>Red Plenty</i>, but I was just floored by <i>Cahokia Jazz</i>, which became the novel I recommended to the most people in 2024. <i>Cahokia Jazz</i> takes place in an alternate-history 1920s America where the post-Columbian genocide never occurred, in an Indigenous-controlled state slowly being encroached on by American business interests. The detective plot seamlessly meshes with Spufford's exploration of racial politics and the development of the main character, a mixed-race jazz-loving detective trying to find his place in the world. Spufford's painstakingly detailed worldbuilding transports the reader to a unique, doomed world &#8212; a feeling I'd previously felt most closely in Mieville's novels <i>The City & the City</i> and <i>Embassytown</i> and Chabon's <i>The Yiddish Policemen's Union</i>. Spufford also demonstrates a clear love of early jazz, and the book is just so perfectly jazzy, in a way that doesn't feel tacked on but is an integral part of the action. It's great genre literature, yes, but <i>Cahokia Jazz</i> also shows that great genre literature can be great literature in its own right.`,
+    },
+    {
+      title: "How Music Works",
+      author: "David Byrne",
+      rating: 3.5,
+      review: `If this is a rockstar memoir, it's certainly an unconventional and thought-provoking one. Byrne digs deep into how music "happens," interestingly devoting more space to topics like stage choreography and how musical scenes develop than the art of music itself. I particularly liked the "Creation in Reverse" chapter, which presents his theory of how musical genres develop to fit the physical spaces in which they're performed, and his timely chapter (introduced in the newer 2017 edition) on "Infinite Choice: The Power of Curation." However, the book got dragged down somewhat by the final two chapters, which I thought the book would have been better off without &#8212; in one, Byrne gets too mystical for my taste about the spiritual properties of music, and in the other, he bashes classical music in a way that feels tasteless to me.`,
+    },
+    {
+      title: "SPQR: A History of Ancient Rome",
+      author: "Mary Beard",
+      rating: 4,
+      review: `Beard's history of Rome combines academic rigor with a breezy writing style that's a joy to read &#8212; not an easy feat. Throughout <i>SPQR</i>, Beard investigates the foundational beliefs that Romans had about themselves, interrogates popular myths about Rome in light of recent discoveries, and illuminates ambiguities and current historical debates, showing that classical history is still very much a living and evolving field. Above all, she shows how the issues that ancient Romans dealt with are not so different from issues we grapple with today. In Beard's words, "I no longer think [...] that we have much to learn directly <i>from</i> the Romans, [...] but I am more and more convinced that we have an enormous amount to learn &#8212; as much about ourselves as about the past &#8212; by <i>engaging with</i> the history of the Romans."`,
+    },
+    {
+      title: "Mid-Holocene Language Connections between Asia and North America",
+      author: "Michael Fortescue, Edward Vajda",
+      rating: "n/a",
+      review: `[I'll leave this one unrated, as it doesn't feel fair to "rate" academic writing.] Both Fortescue and Vajda make strong arguments for their respective theses &#8212; the Uralo-Siberian hypothesis (of a link between Uralic and Eskimo-Aleut languages) and the Dene-Yeniseian hypothesis (of a link between Na-Dene languages and the small Yeniseian family in Siberia). Still, I didn't end up entirely convinced by either. Actually, for the Dene-Yeniseian hypothesis, which I've loosely followed before, seeing Vajda's cognate lists laid out made me realize the evidence for the hypothesis is more sketchy than I'd previously assumed. That doesn't mean it's necessarily false &#8212; it's just very tough to conclusively demonstrate language relationships at such a distant time depth!`,
+    },
+    {
+      title: "Spiaking Singlish",
+      author: "Gwee Li Sui",
+      rating: 3,
+      review: `<i>Spiaking Singlish</i> [sic] has a neat conceit &#8212; it's an introduction to Colloquial Singaporean English written entirely in Singlish itself but presented in a way that is more-or-less legible to non-Singlish speakers, thus serving both as an introduction to the topolect and a forceful gesture against the Singaporean government's "Speak Good English" campaign. I came out of it with a good understanding of the development of Singlish and a great deal of respect for the topolect, though sadly, I didn't have much chance to practice it over my very short stay in Singapore last year.`,
+    },
+    {
+      title: "Three Moments of an Explosion: Stories",
+      author: "China Mieville",
+      rating: 3.5,
+      review: `A wildly imaginative, wildly mixed collection of stories by Mieville. Did I like all of the stories in it? No. Did I understand what was happening in all the stories? Also no. But I was never bored, and at no point could I predict what would happen next in any of the stories &#8212; Mieville certainly shows himself to be a master of unexpected twists and turns. I particularly liked "The Dowager of Bees," "In the Slopes," "The Buzzard's Egg," and "Dreaded Outcome."`,
+    },
+    {
+      title: "Malaysian Journey",
+      author: "Rehman Rashid",
+      rating: 4,
+      review: `<i>Malaysian Journey</i> is an unusually structured memoir, with Rehman's life story interleaved with vivid accounts of a journey he took through each state of Malaysia after a period of exile from the country in the 1980s. Rehman, a prominent journalist who often found himself at odds with the government, makes a point of demonstrating what Malaysia means to him &#8212; a multi-ethnic, multilingual society whose diversity is its key strength. The mix of history and memoir is a nice touch, with each providing context for the other, though I got lost in some of the sections on Malaysian politics, with so many acronyms and party factions. Ultimately, the book served as a compelling and poignant introduction to Malaysia, its history and culture, warts and all.`,
+    },
+
+  ],
 }
 
 /*
