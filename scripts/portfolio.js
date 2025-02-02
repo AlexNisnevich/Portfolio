@@ -1,4 +1,4 @@
-var latestDate = {'year': 2023, 'month': 8};
+var latestDate = {'year': 2025, 'month': 2};
 var earliestDate = {'year': 2011, 'month': 1};
 
 function dateToHeight(year, month) {

@@ -11,8 +11,12 @@ var creations = [
 		"name": "Bartender's Manual",
 		"category": "tools",
 		"start": { "year": 2021, "month": 2 },
-		"end": { "year": 2021, "month": 10 },
-		"//intervals": [
+		"end": { "year": 2025, "month": 2 },
+		"intervals": [
+			{
+				"start": { "year": 2024, "month": 11 },
+				"end": { "year": 2025, "month": 2 },
+			},
 			{
 				"start": { "year": 2022, "month": 11 },
 				"end": { "year": 2023, "month": 1 },
