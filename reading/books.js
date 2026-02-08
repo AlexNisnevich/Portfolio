@@ -554,7 +554,7 @@ const BOOKS = {
       review: `In this collection of essays, Solnit argues that hope is just as important as fear in driving activism. Though most of the book dates back to 2004, it's as important a lesson now as ever.`
     },
     {
-      title: "The God of Small things",
+      title: "The God of Small Things",
       author: "Arundhati Roy",
       rating: 5,
       review: `The most beautiful and heartbreaking novel I read this year. Roy's descriptions of life in rural Kerala are so vivid that you can practically smell the red banana trees. The story is intricately plotted, jumping backward and forward in time as the tale of the Kochamma family unfolds, and it keeps you hoping against hope even as a mounting sense of dread keeps building into an horrific climax. It's that rare sort of novel that not only sticks with you, but makes you feel like somehow it's been a part of you all along.`
@@ -1461,15 +1461,148 @@ const BOOKS = {
       rating: 4,
       review: `<i>Malaysian Journey</i> is an unusually structured memoir, with Rehman's life story interleaved with vivid accounts of a journey he took through each state of Malaysia after a period of exile from the country in the 1980s. Rehman, a prominent journalist who often found himself at odds with the government, makes a point of demonstrating what Malaysia means to him &#8212; a multi-ethnic, multilingual society whose diversity is its key strength. The mix of history and memoir is a nice touch, with each providing context for the other, though I got lost in some of the sections on Malaysian politics, with so many acronyms and party factions. Ultimately, the book served as a compelling and poignant introduction to Malaysia, its history and culture, warts and all.`,
     },
-
   ],
+  2025: [
+    {
+      title: "Happy-Go-Lucky",
+      author: "David Sedaris",
+      rating: 3,
+      review: `Sedaris hasn't lost his sharp wit or his observational eye, but as he's gotten older and more successful, his writing to me seems to have gotten less relatable and a little bit mean-spirited. I was put off by some stories that seemed an excuse to flaunt his wealth more than anything else, and his Balkan travel story put a bad taste in my mouth.`,
+    },
+    {
+      title: "32 Stories: The Complete Optic Nerve Mini-Comics",
+      author: "Adrian Tomine",
+      rating: 3,
+      review: `32 Stories collects Tomine's original <i>Optic Nerve</i> mini-comics, originally written between the ages of 16 and 20. It offers an interesting look at very early work from someone still developing his style, and it's well-presented in a zine-like form factor that mimics the original self-published format of the mini-comics.`,
+    },
+    {
+      title: "The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia",
+      author: "James C. Scott",
+      rating: 4.5,
+      review: `Scott's anarchist reinterpretation of Southeast Asian history is densely written but very rewarding, greatly shaping my view of state formation, of zones of state control and lack of control, of Southeast Asia and its mind-boggling cultural diversity. <i>The Art of Not Being Governed</i> is full of fascinating insights, too many to really list in a brief review. I particularly liked the chapters on oral tradition and heterodox religion, and how they could have historically been wielded as tools against state control.`,
+    },
+    {
+      title: "The Bewitched Bourgeois: Fifty Stories",
+      author: "Dino Buzzati (tr. Lawrence Venuti)",
+      rating: 4.5,
+      review: `A highly readable collection of quirky bite-size stories satirizing Italian society with a dash of magical realism, reading at times like a missing link between Kafka and Calvino. The Bewitched Bourgeois collects stories from throughout Buzzati's long career, from his earliest works through to some posthumous pieces, but I found the mid-career stories from 1950 to 1960 to be particularly impressive, each one pretty much perfectly crafted. Highlights: "Seven Floors", "Panic at La Scala", "The Prohibited Word", "The Count's Wife".`,
+    },
+    {
+      title: "Gathering the Pieces of Days",
+      author: "LeeAnn Pickrell",
+      rating: "n/a",
+      review: `I'll leave this one unrated as it was written by a friend. <i>Gathering the Pieces of Days</i> is a poetry collection with a unique premise: Pickrell kept a journal for a year, then adapted the events and musings of each week into a poem. An intriguing glimpse at the little moments that make up life. `,
+    },
+    {
+      title: "The Sympathizer",
+      author: "Viet Thanh Nguyen",
+      rating: 4,
+      review: `Sometimes these very buzzy novels don't live up to the hype (admittedly I'm a decade late in reading this one), but I liked <i>The Sympathizer</i> overall, an exhilarating mix of spy thriller and literary reflection on the Vietnamese-American experience. Nguyen is at his best when he lets the novel be a novel: the writing is punchy and lyrical and for the most part the characters are complex and well-written, likeable despite their flaws. The novel really drags in the parts where the author seems more interested in addressing specific grievances than advancing the plot &#8212; in particular, I didn't like the length filmmaking subplot in the middle, with its flat characters that seemed to function more as archetypes than real people.`,
+    },
+    {
+      title: "Getting Stoned with Savages: A Trip Through the Islands of Fiji and Vanuatu",
+      author: "J. Maarten Troost",
+      rating: 3,
+      review: `Unfortunate title aside, <i>Getting Stoned with Savages</i> is an engaging and very funny travelogue detailing a year that Troost and his wife spent in Vanuatu, along with some time in Fiji. I appreciated at times the irreverent nature of Troost's writing, but he does have a tendency to play up the more “exotic” elements of Vanuatu life in a way that doesn't age super well.`,
+    },
+    {
+      title: "The AI Con: How to Fight Big Tech's Hype and Create the Future We Want",
+      author: "Emily Bender and Alex Hanna",
+      rating: 3,
+      review: `Bender and Hanna do a reasonably good job at piercing the bubble of hype around the current LLM boom. I did feel like this book suffered from “preaching to the choir”, in the sense that I personally didn't get too much out of it as someone already aligned with their position, and I  can't imagine someone on the other side would pick this book up in the first place. I guess that's unavoidable to some extent.`,
+    },
+    {
+      title: "Bislama Reference Grammar",
+      author: "Terry Crowley",
+      rating: "n/a",
+      review: `A readable and well-thought-out grammar of Bislama, the national creole language of Vanuatu. Leaving unrated as it's unclear how to review a reference work like this.`,
+    },
+    {
+      title: "To Kill a Bird with Two Stones: A Short History of Vanuatu",
+      author: "Jeremy MacClancy",
+      rating: 3,
+      review: `There aren't many histories of Vanuatu, and I found MacClancy's work to be reasonably comprehensive, if fairly dry. It was written in the early 80s, so it's interesting to read about the events of 1980 from such a recent, if perhaps somewhat biased, perspective.`,
+    },
+    {
+      title: "Lively Isles: A Background to Vanuatu",
+      author: "David Luders",
+      rating: 1.5,
+      review: `A very “DIY” overview of Vanuatu's history and culture, written by someone who's spent a lot of time there but is hardly an expert. The book moves between topics haphazardly, interweaving history and myth in a confusing way that makes it hard to tell what is actually true.`,
+    },
+    {
+      title: "The Dream Hotel",
+      author: "Leila Lalami",
+      rating: 4,
+      review: `A very timely near-future novel exploring incarceration and surveillance, providing a contemporary spin on Kafka and Kesey. Lalami's prose has a great flow to it, and I found myself unable to put <i>The Dream Hotel</i> down, even as the plot progressively felt bleaker and bleaker.`,
+    },
+    {
+      title: "The Day Lasts More than a Hundred Years",
+      author: "Chingiz Aitmatov (tr. F. J. French)",
+      rating: 4.5,
+      review: `The Kazakh sections of the novel are a real masterpiece, effortlessly connecting the present and past, spiritual and political musings, and some captivating (invented) folklore tales, with a lyricism that comes through even in translation. Unfortunately, the science fiction narrative that is interspersed throughout is clunky and clumsily plotted, and I think the novel would have done better without it. Still, this is a novel I find myself thinking about even a year after reading it.`,
+    },
+    {
+      title: "The Deserters",
+      author: "Mathias Énard (tr. Charlotte Mandell)",
+      rating: 2.5,
+      review: `Énard intersperses two narratives here &#8212; one of a war deserter trying to survive somewhere in southern Europe, and one of a gathering of mathematicians that gets interrupted by the events of September 11th. Unfortunately I found both of these narratives to be a slog to read. I didn't get much out of this novel.`,
+    },
+    {
+      title: "The Last Soviet Artist",
+      author: "Victoria Lomasko (tr. Bela Shayevich)",
+      rating: 3.5,
+      review: `<i>The Last Soviet Artist</i>, Lomasko's second collection to be translated into English, collects her graphic-novel ethnographic reporting from the Caucasus and Central Asia, as well as more personal pieces from the start of the Ukraine war to her being forced to leave Russia. As with her previous collection <i>Other Russias</i>, I found the graphic-novel observational reporting style to be a powerful way to present the lives of marginalized peoples, but I wasn't a fan of her more philosophical sections speculating about the role of artists in society.`,
+    },
+    {
+      title: "1453: The Holy War for Constantinople",
+      author: "Roger Crowley",
+      rating: 3,
+      review: `Crowley explores the siege of Constantinople at varying time-scales, covering years of leadup to 1453 and then slowing down to an hour-by-hour recreation of the events of the siege itself. I thought that aspects of Crowley's framing were a little old-fashioned, but I certainly learned a lot about a pivotal event that I'd only known the rough outline of before.`,
+    },
+    {
+      title: "Murder on the Orient Express",
+      author: "Agatha Christie",
+      rating: 3,
+      review: `I know it's a classic of the mystery genre and it certainly is a fun read, but I just found the ending unsatisfying, for reasons I can't really express without spoiling the whole thing.`,
+    },
+    {
+      title: "The Comic Book History of the Cocktail",
+      author: "David Wondrich and Dean Kotz",
+      rating: 4,
+      review: `Did the world need another David Wondrich cocktail history book? Apparently, yes! <i>The Comic Book History of the Cocktail</i> is perhaps the perfect Wondrich book &#8212; it's much broader in scope than <i>Imbibe!</i> or <i>Punch</i> but more accessible than the <i>Oxford Companion to Spirits and Cocktails</i>, and the graphic-novel treatment actually fits the subject matter perfectly. It's the perfect length: Wondrich and Kotz do a great job of covering the whole story of cocktails, from the origins of distillation through to the various contemporary cocktail subcultures, while still managing to fit all sorts of colorful details, and the book still never seems to drag. Plus, the recipes are legitimately good.`,
+    },
+    {
+      title: "Istanbul: Memories and the City",
+      author: "Orhan Pamuk (tr. Maureen Freely)",
+      rating: 4,
+      review: `<i>Istanbul</i> is an unusual memoir: moody and dreamlike, dripping with nostalgia, jumping between topics in Turkish history, Istanbul geography and Pamuk's own life, with shockingly personal recollections. The black-and-white photographs interspersed throughout, most from Pamuk's own collection, do a fantastic job of setting the scene and often become objects of Pamuk's musings in their own right, with some interesting art-analysis passages about them. I read this right after our trip to Istanbul but perhaps I would have gotten a little bit more out of it if I'd instead read it prior to the the trip.`,
+    },
+    {
+      title: "Last Days of the Ottoman Empire",
+      author: "Ryan Gingeras",
+      rating: 3.5,
+      review: `Gingeras does a good job of making sense of a confusing period &#8212; Ottoman Turkey from the end of WWI through the founding of the Turkish Republic &#8212; dispelling nationalistic narratives and common misconceptions along the way. I appreciated that he didn't shy away from discussing darker events of the period or from piercing the mythos around Atatürk.`,
+    },
+    {
+      title: "Memories of the Future",
+      author: "Sigizmund Krzhizhanovsky (tr. Joanne Turnbull)",
+      rating: 3.5,
+      review: `A collection of speculative-fiction stories (and a novella) that were written in the early days of Soviet rule and never published for obvious reasons. At his best, Krzhizhanovsky has a Bulgakov-like ability to satirize the world around him through magical realism. But I found much of his prose to be murky and unclear &#8212; dreamlike, but not in a good way, without a clear sense of narrative progression. I'm not sure how much of this is stylistic and how much is due to the translation. I'll try to re-read some of these stories in Russian at some point. Highlight: the novella "Memories of the Future".`,
+    },
+    {
+      title: "Vineland",
+      author: "Thomas Pynchon",
+      rating: 4,
+      review: `I picked up <i>Vineland</i> after hearing it inspired Anderson's <i>One Battle After Another</i>, only to be surprised to find that the novel and film really have very little in common &#8212; not plot or setting or characters, really just a general vibe. Still, Vineland immediate sucked me in with its darkly humorous look at early 1980s America (with more parallels to today's world than I was expecting). It's certain more accessible than, say, <i>Gravity's Rainbow</i>, but that's not necessary a bad thing &#8212; on the contrary, I thought the faster pace of <i>Vineland</i> helped Pynchon articulate his worldview in a clearer way. I thought it was almost a great book, but the abrupt ending was a letdown, with so many unresolved plot threads that it felt like Pynchon just got bored of writing.`,
+    },
+  ]
 }
 
 /*
     {
-      title: ,
-      author: ,
-      rating: ,
+      title: "",
+      author: "",
+      rating: "n/a",
       review: ``,
     },
 */

@@ -100,6 +100,7 @@
             id: `${year}-${String(idx).padStart(3, '0')}`
           })))
           .reverse()
+          .filter(book => book.title)
       );
       console.log(data);
 
